@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ban-ca-an-xu</title>
+    <meta
+      data-n-head="ssr"
+      data-hid="keywords"
+      name="keywords"
+      content="Nhà cái TA88"
+    />
+    <meta
+      data-n-head="ssr"
+      data-hid="description"
+      name="description"
+      content="TA88 là trang cá độ Thể Thao, Live Casino, Game Bài uy tín nhất hiện nay, với tỉ lệ kèo đa dạng, giao diện hiện đại hàng đầu thị trường. Hỗ trợ nạp tiền bảo mật, không lộ danh tính, nạp tiền cực nhanh trong vòng 5 phút. Bảo mật thông tin, xử lý nhanh chóng, tham gia ngay!"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header    ===========-->
+      <header class="sticky z-10 top-0 bg-[#0E182F]">
+        <div
+          class="hidden max-w-[1220px] h-[79px] mx-auto px-6 xl:px-0 py-11 text-white lg:flex items-center justify-center space-x-2 xl:space-x-0 xl:justify-between pl-10 xl:pl-4"
+        >
+          <div>
+            <img class="w-[130px] h-[58.50px]" src="./Images/logo.png" alt="" />
+          </div>
+
+          <div class="pl-10 xl:pl-0">
+            <div
+              class="flex pl-5 xl:pl-0 text-xs xl:text-base flex-wrap items-center *:py-1 space-x-4 font-bold uppercase *:flex *:items-center *:justify-center *:space-x-1"
+            >
+              <a href="./index.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/1.png"
+                  alt=""
+                /><span>TRANG CHỦ</span></a
+              >
+              <a href="./the-thao.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/2.png"
+                /><span>Thể Thao</span></a
+              >
+              <a href="./game-bai.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/3.png"
+                  alt=""
+                /><span>Game Bài</span></a
+              >
+              <a href="./ban-ca.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/4.png"
+                  alt=""
+                /><span>Bắn Cá</span></a
+              >
+              <a href="./lo-de.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/5.png"
+                  alt=""
+                /><span>Lô Đề</span></a
+              >
+              <a href="./no-hu.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/6.png"
+                  alt=""
+                /><span>Nổ Hũ</span></a
+              >
+              <a href="./huong-dan.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/7.png"
+                  alt=""
+                /><span>Hướng Dẫn</span></a
+              >
+            </div>
+          </div>
+
+          <div
+            class="w-[25%] xl:w-[auto] flex items-center justify-end space-x-4 font-bold uppercase text-[13px] xl:text-[14px]"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#2B3459]"
+              >
+                Support TA88
+              </button>
+            </a>
+
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#EC6725]"
+              >
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="w-full bg-[#0E182F] lg:hidden">
+          <div
+            class="flex items-center justify-between px-10 md:px-20 pt-4 pb-2"
+          >
+            <div
+              class="text-white text-2xl w-9 h-9 bg-[#035DAB] border-[1px] border-gray-300 flex items-center justify-center rounded-lg"
+            >
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+            <div>
+              <img class="w-36" src="./Images/logo.png" alt="" />
+            </div>
+            <div></div>
+          </div>
+
+          <div
+            class="w-full text-white font-semibold space-x-4 py-2 shadow border-t border-gray-700 uppercase text-xs bg-[#000E56] flex items-center justify-center"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#2B3459]">
+                Support TA88
+              </button>
+            </a>
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#EC6725]">
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- side nav -->
+        <div class="menu w-full lg:hidden h-screen fixed top-0 -left-full">
+          <div
+            class="h-full w-full relative transition-all duration-500 bg-gray-950 inset-0 bg-opacity-60 top-0 z-50"
+          >
+            <div class="absolute top-5 right-5 text-gray-300 text-3xl">
+              <ion-icon onclick="hideNav()" name="close-outline"></ion-icon>
+            </div>
+            <div class="h-full w-[35%] bg-[#010103]">
+              <div
+                class="*:pl-3 px-[2px] text-gray-300 pt-16 text-sm *:pb-2 *:w-full space-y-4 font-bold uppercase flex flex-col items-start *:flex *:items-center *:justify-start *:space-x-1 *:border-b *:border-gray-700"
+              >
+                <a href="./index.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/1.png"
+                    alt=""
+                  /><span>TRANG CHỦ</span></a
+                >
+                <a href="./the-thao.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/2.png"
+                  /><span>Thể Thao</span></a
+                >
+                <a href="./game-bai.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/3.png"
+                    alt=""
+                  /><span>Game Bài</span></a
+                >
+                <a href="./ban-ca.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/4.png"
+                    alt=""
+                  /><span>Bắn Cá</span></a
+                >
+                <a href="./lo-de.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/5.png"
+                    alt=""
+                  /><span>Lô Đề</span></a
+                >
+                <a href="./no-hu.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/6.png"
+                    alt=""
+                  /><span>Nổ Hũ</span></a
+                >
+                <a href="./huong-dan.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/7.png"
+                    alt=""
+                  /><span>Hướng Dẫn</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- container ===========-->
+      <div class="bg-[#06102D] text-white space-y-8 py-9 px-4 xl:px-0">
+        <div class="max-w-[1220px] mx-auto lg:flex space-y-10 lg:space-y-0">
+          <div
+            class="h-full lg:w-[76%] lg:pr-8 lg:border-r border-white space-y-8"
+          >
+            <div class="bg-[#000921] py-6 px-4 space-y-8 text-white relative">
+              <!-- 1 -->
+              <div class="space-y-7">
+                <div class="space-y-1">
+                  <p class="text-red-500 text-[12px]">BẮN CÁ</p>
+                  <h2 class="text-3xl font-bold">
+                    Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88
+                  </h2>
+                </div>
+                <p class="text-xs">
+                  POSTED ON &nbsp;<span class="text-red-500"
+                    >THÁNG HAI 1, 2024</span
+                  >&nbsp; BY &nbsp;<span class="text-red-500"
+                    >TA88SEOSOO82</span
+                  >
+                </p>
+                <!-- img1 -->
+                <div class="space-y-6">
+                  <p>
+                    <span class="text-red-500">Bắn cá ăn xu </span> là một trong
+                    những trò chơi giải trí phổ biến nhất tại nhà cái TA88.
+                    Trò chơi này có cách chơi đơn giản, dễ hiểu, phù hợp với mọi
+                    lứa tuổi. Cùng theo dõi bài viết này để tìm hiểu thêm những
+                    thông tin thú vị về trò chơi này nha.
+                  </p>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/img-component/Artboard 24.jpg"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Bắn cá ăn xu </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Cách chơi bắn cá ăn xu tại TA88
+                  </h3>
+                  <p>
+                    Mục tiêu của trò chơi bắn cá là đạt được điểm cao nhất.
+                    Người chơi sử dụng chuột để điều khiển súng để bắt đầu bắn
+                    cá.
+                  </p>
+                </div>
+
+                <p>
+                  Mỗi loại cá sẽ có điểm thưởng khác nhau, người chơi cần bắn
+                  càng nhiều cá càng tốt. Những con cá có giá trị càng cao càng
+                  tốt để đạt được điểm cao nhất.
+                </p>
+
+                <div class="space-y-6">
+                  <h4 class="text-xl font-bold">
+                    Loại cá trong trò chơi bắn cá tại TA88
+                  </h4>
+                  <p>
+                    Trong trò chơi bắn cá ăn xu tại TA88, có nhiều loại cá
+                    khác nhau. Mỗi loại sẽ có điểm thưởng khác nhau, các loại cá
+                    phổ biến bao gồm:
+                  </p>
+                </div>
+
+                <!-- img2 -->
+                <div class="space-y-6">
+                  <ul class="space-y-3 pl-6 list-disc">
+                    <li>
+                      <span
+                        >Cá nhỏ: Có điểm thưởng thấp, thường từ 1 đến 10
+                        điểm.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Cá trung bình: Có điểm thưởng trung bình, thường từ 10
+                        đến 100 điểm.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Cá lớn: Có điểm thưởng cao, thường từ 100 đến 1000
+                        điểm.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Cá mập: Có điểm thưởng cực cao, thường từ 1000 đến
+                        10000 điểm.</span
+                      >
+                    </li>
+                  </ul>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/img-component/Artboard 25.jpg"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Loại cá trong trò chơi bắn cá tại TA88 </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h4 class="text-2xl font-bold">
+                    Các vật phẩm trong trò chơi bắn cá ăn xu
+                  </h4>
+                  <p>
+                    Ngoài đạn, trong trò chơi còn có các vật phẩm khác. Các vật
+                    phẩm này có thể giúp người chơi tăng sức mạnh cho súng và
+                    nâng cao khả năng bắn cá. Các vật phẩm thường gặp trong trò
+                    chơi bắn cá có thể kể đến như:
+                  </p>
+                </div>
+
+                <!-- img3 -->
+                <div class="space-y-6">
+                  <ul class="space-y-3 pl-6 list-disc">
+                    <li>
+                      <span
+                        >Đạn đặc biệt: Có sức mạnh lớn hơn đạn thường giúp người
+                        chơi bắn hạ những con cá lớn dễ dàng hơn.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Búa điện: Giúp người chơi bắn hạ tất cả cá trong màn
+                        hình.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Thủy lôi: Giúp game thủ bắn hạ một khu vực cá trong màn
+                        hình.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Bom: Giúp người chơi bắn hạ tất cả cá trong khu vực
+                        rộng lớn.</span
+                      >
+                    </li>
+                  </ul>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/img-component/Artboard 26.jpg"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Cách chơi bắn cá ăn xu tại TA88</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Các chế độ chơi trong trò chơi bắn cá
+                  </h3>
+                  <p>
+                    Trò chơi bắn cá ăn xu có nhiều chế độ chơi khác nhau, mỗi
+                    chế độ chơi sẽ có những đặc điểm riêng. Các chế độ chơi
+                    thường gặp trong trò chơi bao gồm:
+                  </p>
+                </div>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <ul class="list-disc space-y-3 pl-6">
+                    <li>
+                      <span
+                        >Chế độ một người: Người chơi sẽ chơi một mình và cạnh
+                        tranh với máy.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Chế độ nhiều người: Game thủ sẽ chơi cùng với những
+                        người chơi khác.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Chế độ chơi thử: Người chơi có thể thử nghiệm trò chơi
+                        trước khi chơi với tiền thật.</span
+                      >
+                    </li>
+                  </ul>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/img-component/Artboard 27.jpg"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Các chế độ chơi trong trò chơi</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Một số lưu ý khi chơi bắn cá
+                  </h3>
+                  <p>
+                    Để đạt được điểm cao trong trò chơi bắn cá ăn xu, người chơi
+                    cần lưu ý một số điều sau:
+                  </p>
+                </div>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <ul class="list-disc pl-6 space-y-3">
+                    <li>
+                      <span
+                        >Tập trung và nhắm bắn chính xác để hạ gục những con cá
+                        có giá trị cao.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Sử dụng các vật phẩm một cách hợp lý để nâng cao khả
+                        năng bắn cá của bạn.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Giữ bình tĩnh và kiên nhẫn để đạt được điểm cao
+                        nhất.</span
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/img-component/Artboard 28.jpg"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Một số lưu ý khi chơi bắn cá</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Trò chơi bắn cá ăn xu có những lợi ích gì?
+                  </h3>
+                  <p>
+                    Trò chơi bắn cá mang lại nhiều lợi ích cho người chơi, bao
+                    gồm:
+                  </p>
+                </div>
+
+                <!-- img6 -->
+                <div class="space-y-6">
+                  <ul class="list-disc pl-6 space-y-3">
+                    <li>
+                      <span>Giải trí: Trò chơi </span><b>bắn cá ăn xu </b
+                      ><span
+                        >là một trò chơi giải trí hấp dẫn giúp game thủ giải tỏa
+                        căng thẳng và mệt mỏi.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Nâng cao khả năng tập trung: Trò chơi đòi hỏi người
+                        chơi phải tập trung cao độ để nhắm bắn chính xác.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Phát triển kỹ năng tư duy: Người chơi phải có kỹ năng
+                        tư duy để sử dụng các vật phẩm một cách hợp lý.</span
+                      >
+                    </li>
+                  </ul>
+
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/img-component/Artboard 29.jpg"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Trò chơi bắn cá ăn xu có những lợi ích gì?</i>
+                    </p>
+                  </div>
+                </div>
+
+                <p>
+                  Trên đây là những thông tin cơ bản về trò chơi bắn cá ăn xu
+                  tại TA88. Người chơi có thể tham gia bắn cá để có những giây
+                  phút thư giãn. Đồng thời có cơ hội rinh về những phần thưởng
+                  hấp dẫn. Hy vọng những thông tin này sẽ giúp bạn hiểu rõ hơn
+                  về trò chơi này
+                </p>
+              </div>
+
+              <!-- ============> line -->
+              <div class="h-14 md:h-20"></div>
+
+              <div
+                class="flex items-center border-y border-white absolute w-full bottom-0 left-0"
+              >
+                <div
+                  class="w-full border-r border-white py-1 md:py-3 text-red-600 pr-2 md:pr-4"
+                >
+                  <span class=""
+                    ><ion-icon
+                      class="text-2xl -mb-1"
+                      name="chevron-back-outline"
+                    ></ion-icon
+                  ></span>
+                  <span class="text-sm md:text-lg">
+                    Lô 3 càng là gì? Cách đặt cược lô 3 càng trong TA88
+                  </span>
+                </div>
+                <div
+                  class="w-full border-white py-1 md:py-3 text-red-600 pl-2 md:pl-4 text-end"
+                >
+                  <span class="text-sm md:text-lg">
+                    Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài
+                    lịch sử
+                  </span>
+                  <span class=""
+                    ><ion-icon
+                      class="text-2xl -mb-1"
+                      name="chevron-forward-outline"
+                    ></ion-icon
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="containt-right h-full lg:w-[24%] lg:pl-8 space-y-8">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-bold uppercase">BÀI VIẾT MỚI</h1>
+              <p class="text-red-500">
+                Hướng dẫn cách chơi Sicbo online tại sòng bài TA88
+              </p>
+              <p class="text-red-500">
+                Game bắn cá Ocean Lord khám phá bí mật đại dương tại TA88
+              </p>
+              <p class="text-red-500">
+                Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+              </p>
+              <p class="text-red-500">
+                Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch
+                sử
+              </p>
+              <p>Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88</p>
+            </div>
+            <div class="space-y-4">
+              <h1 class="text-3xl font-bold uppercase">GAMES TA88</h1>
+              <p class="text-red-500"><a href="./ban-ca.html">Bắn Cá</a></p>
+              <p class="text-red-500"><a href="./game-bai.html">Game Bài</a></p>
+              <p class="text-red-500">
+                <a href="./huong-dan.html">Hướng Dẫn</a>
+              </p>
+              <p class="text-red-500"><a href="./lo-de.html">Lô Đề</a></p>
+              <p class="text-red-500"><a href="./no-hu.html">Nổ Hũ</a></p>
+              <p class="text-red-500"><a href="./the-thao.html">Thể Thao</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer>
+        <div class="w-full bg-[#0E0026]">
+          <div
+            class="px-4 xl:px-0 max-w-[1220px] mx-auto space-y-6 text-white py-12"
+          >
+            <p>
+              Đến với TA88 là bạn đang đến với thế giới của sự chuyên nghiệp,
+              đẳng cấp mà một nhà cái hàng đầu châu Á mang lại. TA88 đem đến cho
+              khách hàng dịch vụ cá cược trực tuyến hàng đầu với hàng trăm sản
+              phẩm cược hấp dẫn như: Thể Thao, Thể Thao Ảo, Casino, Number Game,
+              Keno, Sòng Bài Số, Lottery,….
+            </p>
+            <img src="./Images/h2.webp" alt="" />
+          </div>
+          <div class="bg-[#0E182F]">
+            <div class="max-w-[1220px] mx-auto py-12 px-4 xl:px-0">
+              <button
+                class="flex items-center space-x-4 px-6 py-2 rounded border bg-[#B30006] text-white font-bold uppercase"
+              >
+                <img class="h-[20px]" src="./Images/h3.png" alt="" />
+                <p class="text-lg">CONTINUE (X/X)</p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center bg-[#000000] text-sm px-4 md:text-base py-4 text-gray-400 font-semibold"
+          >
+            Copyright 2024 © TA88.TEAM - ĐỐI TÁC UY TÍN Nhà Cái TA88 CHÍNH
+            THỨC HIỆN NAY
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>san-hu-dai-duong</title>
+    <meta
+      data-n-head="ssr"
+      data-hid="keywords"
+      name="keywords"
+      content="Nhà cái TA88"
+    />
+    <meta
+      data-n-head="ssr"
+      data-hid="description"
+      name="description"
+      content="TA88 là trang cá độ Thể Thao, Live Casino, Game Bài uy tín nhất hiện nay, với tỉ lệ kèo đa dạng, giao diện hiện đại hàng đầu thị trường. Hỗ trợ nạp tiền bảo mật, không lộ danh tính, nạp tiền cực nhanh trong vòng 5 phút. Bảo mật thông tin, xử lý nhanh chóng, tham gia ngay!"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header    ===========-->
+      <header class="sticky z-10 top-0 bg-[#0E182F]">
+        <div
+          class="hidden max-w-[1220px] h-[79px] mx-auto px-6 xl:px-0 py-11 text-white lg:flex items-center justify-center space-x-2 xl:space-x-0 xl:justify-between pl-10 xl:pl-4"
+        >
+          <div>
+            <img class="w-[130px] h-[58.50px]" src="./Images/logo.png" alt="" />
+          </div>
+
+          <div class="pl-10 xl:pl-0">
+            <div
+              class="flex pl-5 xl:pl-0 text-xs xl:text-base flex-wrap items-center *:py-1 space-x-4 font-bold uppercase *:flex *:items-center *:justify-center *:space-x-1"
+            >
+              <a href="./index.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/1.png"
+                  alt=""
+                /><span>TRANG CHỦ</span></a
+              >
+              <a href="./the-thao.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/2.png"
+                /><span>Thể Thao</span></a
+              >
+              <a href="./game-bai.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/3.png"
+                  alt=""
+                /><span>Game Bài</span></a
+              >
+              <a href="./ban-ca.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/4.png"
+                  alt=""
+                /><span>Bắn Cá</span></a
+              >
+              <a href="./lo-de.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/5.png"
+                  alt=""
+                /><span>Lô Đề</span></a
+              >
+              <a href="./no-hu.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/6.png"
+                  alt=""
+                /><span>Nổ Hũ</span></a
+              >
+              <a href="./huong-dan.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/7.png"
+                  alt=""
+                /><span>Hướng Dẫn</span></a
+              >
+            </div>
+          </div>
+
+          <div
+            class="w-[25%] xl:w-[auto] flex items-center justify-end space-x-4 font-bold uppercase text-[13px] xl:text-[14px]"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#2B3459]"
+              >
+                Support TA88
+              </button>
+            </a>
+
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#EC6725]"
+              >
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="w-full bg-[#0E182F] lg:hidden">
+          <div
+            class="flex items-center justify-between px-10 md:px-20 pt-4 pb-2"
+          >
+            <div
+              class="text-white text-2xl w-9 h-9 bg-[#035DAB] border-[1px] border-gray-300 flex items-center justify-center rounded-lg"
+            >
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+            <div>
+              <img class="w-36" src="./Images/logo.png" alt="" />
+            </div>
+            <div></div>
+          </div>
+
+          <div
+            class="w-full text-white font-semibold space-x-4 py-2 shadow border-t border-gray-700 uppercase text-xs bg-[#000E56] flex items-center justify-center"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#2B3459]">
+                Support TA88
+              </button>
+            </a>
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#EC6725]">
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+
+         <!-- side nav -->
+         <div class="menu w-full lg:hidden h-screen fixed top-0 -left-full">
+          <div class="h-full w-full relative transition-all duration-500 bg-gray-950 inset-0 bg-opacity-60 top-0 z-50">
+           <div class=" absolute top-5 right-5 text-gray-300 text-3xl">
+             <ion-icon onclick="hideNav()" name="close-outline"></ion-icon>
+           </div>
+           <div class=" h-full w-[35%] bg-[#010103]">
+             <div
+               class="*:pl-3 px-[2px] text-gray-300 pt-16 text-sm *:pb-2 *:w-full space-y-4 font-bold uppercase flex flex-col items-start *:flex *:items-center *:justify-start *:space-x-1 *:border-b *:border-gray-700"
+             >
+               <a href="./index.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/1.png"
+                   alt=""
+                 /><span>TRANG CHỦ</span></a
+               >
+               <a href="./the-thao.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/2.png"
+                 /><span>Thể Thao</span></a
+               >
+               <a href="./game-bai.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/3.png"
+                   alt=""
+                 /><span>Game Bài</span></a
+               >
+               <a href="./ban-ca.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/4.png"
+                   alt=""
+                 /><span>Bắn Cá</span></a
+               >
+               <a href="./lo-de.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/5.png"
+                   alt=""
+                 /><span>Lô Đề</span></a
+               >
+               <a href="./no-hu.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/6.png"
+                   alt=""
+                 /><span>Nổ Hũ</span></a
+               >
+               <a href="./huong-dan.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/7.png"
+                   alt=""
+                 /><span>Hướng Dẫn</span></a
+               >
+             </div>
+  
+           </div>
+  
+  
+          </div>
+       </div>
+      </header>
+      <!-- container ===========-->
+      <div class="bg-[#06102D] text-white space-y-8 py-9 px-4 xl:px-0">
+        <div class="max-w-[1220px] mx-auto lg:flex space-y-10 lg:space-y-0">
+          <div
+            class="h-full lg:w-[76%] lg:pr-8 lg:border-r border-white space-y-8"
+          >
+            <div class="bg-[#000921] py-6 px-4 space-y-8 text-white relative">
+              <!-- 1 -->
+              <div class="space-y-7">
+                <div class="space-y-1">
+                  <p class="text-red-500 text-[12px]">BẮN CÁ</p>
+                  <h2 class="text-3xl font-bold">
+                    Săn Hũ Đại Dương TA88 – Tựa game lý tưởng dành cho mọi ngư
+                    thủ
+                  </h2>
+                </div>
+                <p class=" text-xs">
+                  POSTED ON &nbsp;<span class="text-red-500">THÁNG MƯỜI HAI 25, 2023</span>&nbsp; BY &nbsp;<span class="text-red-500">TA88SEOSOO82</span>
+                </p>
+                <!-- img1 -->
+                <div class="space-y-6">
+                  <p>
+                    <span class=" text-red-500">Săn Hũ Đại Dương </span> là một trong những tựa game độc đáo thuộc
+                    thể loại Fishing. Game là một phần không thể thiếu trong
+                    danh sách những trò chơi đình đám trên thị trường. Đây là
+                    sân chơi mà người chơi không nên bỏ lỡ tại TA88.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 34.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Săn Hũ Đại Dương </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Săn Hũ Đại Dương tại TA88 là gì?
+                  </h3>
+                  <p>
+                    Săn Hũ Đại Dương không còn xa lạ với đa số những người đam
+                    mê cờ bạc ngày nay. Đặt ra một tiêu chuẩn mới về trải nghiệm
+                    giải trí cho cộng đồng người chơi đỏ đen. Tựa game này đã
+                    chứng minh khả năng hoàn toàn đáp ứng mọi nhu cầu giải trí
+                    của tay cược. Hứa hẹn mang lại những trải nghiệm kịch tính
+                    và khó quên cho mọi người.
+                  </p>
+                </div>
+
+                <!-- img2 -->
+                <div class="space-y-6">
+                  <p>
+                    Điểm độc đáo chính là sự kết hợp giữa thiết kế đồ họa 3D và
+                    không gian chơi game. Điều này tạo ra cảm giác chân thật
+                    nhất cho người chơi. Đây là nơi mà người chơi sẽ bị cuốn hút
+                    bởi vẻ đẹp và sự sống động của sinh vật biển.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 35.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Săn Hũ Đại Dương tại TA88 là gì? </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Một số cách Săn Hũ Đại Dương bách phát bách trúng
+                  </h3>
+                  <p>
+                    Săn Hũ Đại Dương được thiết kế để làm cho trải nghiệm của
+                    người chơi trở nên dễ dàng và thú vị. Dưới đây là những
+                    chiến thuật và kỹ năng bạn có thể áp dụng để đạt được những
+                    phần quà giá trị trong trò chơi này:
+                  </p>
+                </div>
+
+                <div class="space-y-6">
+                  <h4 class="text-xl font-bold">
+                    Tận dụng các góc nhỏ để ngắm bắn
+                  </h4>
+                  <p>
+                    Đối với những con cá nhỏ, hãy tận dụng góc nhỏ máy bắn và
+                    hướng súng vào chúng. Điều này giúp tiết kiệm đạn và tăng cơ
+                    hội thu được nhiều xu hơn. Liên tục xoay nòng súng quanh bàn
+                    bắn cá để tìm kiếm những con cá mục tiêu.
+                  </p>
+                </div>
+
+                <p>
+                  Hãy chắc chắn bắn từng viên đạn vào những con cá mục tiêu. Đặc
+                  biệt là dành 2-3 viên đạn cho những con cá lớn hơn để đảm bảo
+                  việc thu được nhiều xu.
+                </p>
+
+                <!-- img3 -->
+                <div class="space-y-6">
+                  <div class="space-y-6">
+                    <h3 class="text-2xl font-bold">
+                      Tiêu diệt cá ngay khi vừa xuất hiện
+                    </h3>
+                    <p>
+                      Nắm bắt cơ hội tiêu diệt cá ngay khi chúng xuất hiện trên
+                      bàn. Đây là phương pháp hiệu quả giúp bạn nhanh chóng tích
+                      lũy số xu và tiết kiệm đạn. Cách này đặc biệt phù hợp cho
+                      người chơi mới và ít kinh nghiệm.
+                    </p>
+                  </div>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 36.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Tiêu diệt cá ngay khi vừa xuất hiện</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h4 class="text-xl font-bold">Nhắm bắn một cách chính xác</h4>
+                  <p>
+                    Đối với những con cá mới xuất hiện, nếu bạn nhanh chóng nhắm
+                    bắn cẩn thận. Có khả năng chúng sẽ chết ngay sau khi ra khỏi
+                    bàn, đem lại nguồn thu nhập xu đáng kể. Chiến thuật này giúp
+                    bạn sẽ có thể tận hưởng trò chơi này một cách hiệu quả và
+                    thú vị.
+                  </p>
+                </div>
+
+                <p>
+                  Tham gia Săn Hũ Đại Dương với phương pháp bắn cá đơn lẻ là một
+                  cách tiếp cận khá hiệu quả để tích lũy xu. Thay vì sử dụng đạn
+                  lớn để bắn vào các con cá bơi đơn lẻ, bạn có thể chọn sử dụng
+                  đạn nhỏ và vừa. Nếu sau khi bắn 3-5 viên mà con cá vẫn chưa
+                  chết, hãy chuyển sang mục tiêu khác để tránh lãng phí đạn.
+                </p>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <p>
+                    Ngoài ra, chiến thuật bắn tăng đạn trong khi chơi cũng là
+                    một phương pháp khá hữu hiệu. Mặc dù bạn có thể mất một
+                    lượng đạn khá đáng kể nhưng số lượng cá chết cùng lúc cũng
+                    rất cao.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 37.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Một số cách Săn Hũ Đại Dương bách phát bách trúng</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Một số lỗi sai khi chơi Săn Hũ Đại Dương dẫn đến thua cược
+                    tại TA88
+                  </h3>
+                  <p>
+                    Trong quá trình tham gia trò chơi bắn cá, nhiều người chơi
+                    mắc phải những sai lầm đáng tiếc. Những sai lầm phổ biến mà
+                    người chơi thường gặp:
+                  </p>
+                </div>
+
+                <p>
+                  Tham gia Săn Hũ Đại Dương với phương pháp bắn cá đơn lẻ là một
+                  cách tiếp cận khá hiệu quả để tích lũy xu. Thay vì sử dụng đạn
+                  lớn để bắn vào các con cá bơi đơn lẻ, bạn có thể chọn sử dụng
+                  đạn nhỏ và vừa. Nếu sau khi bắn 3-5 viên mà con cá vẫn chưa
+                  chết, hãy chuyển sang mục tiêu khác để tránh lãng phí đạn.
+                </p>
+
+                <ul class="list-disc pl-6 space-y-3">
+                  <li>
+                    <span
+                      >Một sai lầm cơ bản nhất là không hiểu rõ luật chơi. Mỗi
+                      sòng bạc trực tuyến thường có các quy định riêng về luật
+                      chơi. Việc không tìm hiểu và hiểu rõ luật chơi có thể dẫn
+                      đến việc chơi sai, từ đó thất bại.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Việc lựa chọn thời điểm không thích hợp để nạp đạn là một
+                      sai lầm phổ biến. Người chơi thiếu kiểm soát khi nạp đạn,
+                      dẫn đến việc bắn phí đạn mà không đạt được kết quả như
+                      ý.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Một sai lầm nữa là dành quá nhiều thời gian để chơi tạo
+                      ra mệt mỏi có thể làm mất tập trung. Nó làm giảm khả năng
+                      chiến thắng và dẫn đến việc thua lỗ.</span
+                    >
+                  </li>
+                </ul>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <p>
+                    Bằng cách tránh những sai lầm này, người chơi có thể cải thiện chiến thuật của mình. Từ đó tăng cơ hội chiến thắng trong trò chơi bắn cá đổi thưởng.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 38.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Một số lỗi sai khi chơi Săn Hũ Đại Dương</i>
+                    </p>
+                  </div>
+                </div>
+                <p>
+                    Đây là những thông tin chi tiết về tựa game độc đáo – Săn Hũ Đại Dương mà TA88 muốn chia sẻ với game thủ. Đừng bỏ lỡ cơ hội, hãy chơi Bắn Cá hot nhất trên thị trường ngay hôn nay nhé. 
+                </p>
+              </div>
+
+              <!-- ============> line -->
+              <div class="h-14 md:h-20"></div>
+            
+
+
+
+              <div
+              class="flex items-center border-y border-white absolute w-full bottom-0 left-0"
+            >
+              <div
+                class="w-full border-r border-white py-1 md:py-3 text-red-600 pr-2 md:pr-4"
+              >
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl hidden md:flex -mb-1"
+                    name="chevron-back-outline"
+                  ></ion-icon
+                ></span>
+                <span class="text-sm md:text-lg">
+                  Săn Hũ Đại Dương TA88 – Tựa game lý tưởng dành cho mọi ngư
+                  thủ
+                </span>
+              </div>
+              <div
+                class="w-full border-white py-1 md:py-3 text-red-600 pl-2 md:pl-4 text-end"
+              >
+                <span class="text-sm md:text-lg">
+                  Khuyến mãi TA88 – Khởi đầu kỷ nguyên so tài cá cược
+                    900.000.000 VNĐ
+                </span>
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl -mb-1"
+                    name="chevron-forward-outline"
+                  ></ion-icon
+                ></span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="containt-right h-full lg:w-[24%] lg:pl-8 space-y-8">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-bold uppercase">BÀI VIẾT MỚI</h1>
+              <p class="text-red-500">
+                Hướng dẫn cách chơi Sicbo online tại sòng bài TA88
+              </p>
+              <p class="text-red-500">
+                Game bắn cá Ocean Lord khám phá bí mật đại dương tại TA88
+              </p>
+              <p class="text-red-500">
+                Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+              </p>
+              <p class="text-red-500">
+                Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch
+                sử
+              </p>
+              <p>Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88</p>
+            </div>
+            <div class="space-y-4">
+              <h1 class="text-3xl font-bold uppercase">GAMES TA88</h1>
+              <p class="text-red-500"><a href="./ban-ca.html">Bắn Cá</a></p>
+              <p class="text-red-500"><a href="./game-bai.html">Game Bài</a></p>
+              <p class="text-red-500">
+                <a href="./huong-dan.html">Hướng Dẫn</a>
+              </p>
+              <p class="text-red-500"><a href="./lo-de.html">Lô Đề</a></p>
+              <p class="text-red-500"><a href="./no-hu.html">Nổ Hũ</a></p>
+              <p class="text-red-500"><a href="./the-thao.html">Thể Thao</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer>
+        <div class="w-full bg-[#0E0026]">
+          <div
+            class="px-4 xl:px-0 max-w-[1220px] mx-auto space-y-6 text-white py-12"
+          >
+            <p>
+              Đến với TA88 là bạn đang đến với thế giới của sự chuyên nghiệp,
+              đẳng cấp mà một nhà cái hàng đầu châu Á mang lại. TA88 đem đến cho
+              khách hàng dịch vụ cá cược trực tuyến hàng đầu với hàng trăm sản
+              phẩm cược hấp dẫn như: Thể Thao, Thể Thao Ảo, Casino, Number Game,
+              Keno, Sòng Bài Số, Lottery,….
+            </p>
+            <img src="./Images/h2.webp" alt="" />
+          </div>
+          <div class="bg-[#0E182F]">
+            <div class="max-w-[1220px] mx-auto py-12 px-4 xl:px-0">
+              <button
+                class="flex items-center space-x-4 px-6 py-2 rounded border bg-[#B30006] text-white font-bold uppercase"
+              >
+                <img class="h-[20px]" src="./Images/h3.png" alt="" />
+                <p class="text-lg">CONTINUE (X/X)</p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center bg-[#000000] text-sm px-4 md:text-base py-4 text-gray-400 font-semibold"
+          >
+            Copyright 2024 © TA88.TEAM - ĐỐI TÁC UY TÍN Nhà Cái TA88 CHÍNH
+            THỨC HIỆN NAY
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>lets-shoot</title>
+    <meta
+      data-n-head="ssr"
+      data-hid="keywords"
+      name="keywords"
+      content="Nhà cái TA88"
+    />
+    <meta
+      data-n-head="ssr"
+      data-hid="description"
+      name="description"
+      content="TA88 là trang cá độ Thể Thao, Live Casino, Game Bài uy tín nhất hiện nay, với tỉ lệ kèo đa dạng, giao diện hiện đại hàng đầu thị trường. Hỗ trợ nạp tiền bảo mật, không lộ danh tính, nạp tiền cực nhanh trong vòng 5 phút. Bảo mật thông tin, xử lý nhanh chóng, tham gia ngay!"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header    ===========-->
+      <header class="sticky z-10 top-0 bg-[#0E182F]">
+        <div
+          class="hidden max-w-[1220px] h-[79px] mx-auto px-6 xl:px-0 py-11 text-white lg:flex items-center justify-center space-x-2 xl:space-x-0 xl:justify-between pl-10 xl:pl-4"
+        >
+          <div>
+            <img class="w-[130px] h-[58.50px]" src="./Images/logo.png" alt="" />
+          </div>
+
+          <div class="pl-10 xl:pl-0">
+            <div
+              class="flex pl-5 xl:pl-0 text-xs xl:text-base flex-wrap items-center *:py-1 space-x-4 font-bold uppercase *:flex *:items-center *:justify-center *:space-x-1"
+            >
+              <a href="./index.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/1.png"
+                  alt=""
+                /><span>TRANG CHỦ</span></a
+              >
+              <a href="./the-thao.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/2.png"
+                /><span>Thể Thao</span></a
+              >
+              <a href="./game-bai.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/3.png"
+                  alt=""
+                /><span>Game Bài</span></a
+              >
+              <a href="./ban-ca.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/4.png"
+                  alt=""
+                /><span>Bắn Cá</span></a
+              >
+              <a href="./lo-de.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/5.png"
+                  alt=""
+                /><span>Lô Đề</span></a
+              >
+              <a href="./no-hu.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/6.png"
+                  alt=""
+                /><span>Nổ Hũ</span></a
+              >
+              <a href="./huong-dan.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/7.png"
+                  alt=""
+                /><span>Hướng Dẫn</span></a
+              >
+            </div>
+          </div>
+
+          <div
+            class="w-[25%] xl:w-[auto] flex items-center justify-end space-x-4 font-bold uppercase text-[13px] xl:text-[14px]"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#2B3459]"
+              >
+                Support TA88
+              </button>
+            </a>
+
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#EC6725]"
+              >
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="w-full bg-[#0E182F] lg:hidden">
+          <div
+            class="flex items-center justify-between px-10 md:px-20 pt-4 pb-2"
+          >
+            <div
+              class="text-white text-2xl w-9 h-9 bg-[#035DAB] border-[1px] border-gray-300 flex items-center justify-center rounded-lg"
+            >
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+            <div>
+              <img class="w-36" src="./Images/logo.png" alt="" />
+            </div>
+            <div></div>
+          </div>
+
+          <div
+            class="w-full text-white font-semibold space-x-4 py-2 shadow border-t border-gray-700 uppercase text-xs bg-[#000E56] flex items-center justify-center"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#2B3459]">
+                Support TA88
+              </button>
+            </a>
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#EC6725]">
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+
+         <!-- side nav -->
+         <div class="menu w-full lg:hidden h-screen fixed top-0 -left-full">
+          <div class="h-full w-full relative transition-all duration-500 bg-gray-950 inset-0 bg-opacity-60 top-0 z-50">
+           <div class=" absolute top-5 right-5 text-gray-300 text-3xl">
+             <ion-icon onclick="hideNav()" name="close-outline"></ion-icon>
+           </div>
+           <div class=" h-full w-[35%] bg-[#010103]">
+             <div
+               class="*:pl-3 px-[2px] text-gray-300 pt-16 text-sm *:pb-2 *:w-full space-y-4 font-bold uppercase flex flex-col items-start *:flex *:items-center *:justify-start *:space-x-1 *:border-b *:border-gray-700"
+             >
+               <a href="./index.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/1.png"
+                   alt=""
+                 /><span>TRANG CHỦ</span></a
+               >
+               <a href="./the-thao.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/2.png"
+                 /><span>Thể Thao</span></a
+               >
+               <a href="./game-bai.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/3.png"
+                   alt=""
+                 /><span>Game Bài</span></a
+               >
+               <a href="./ban-ca.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/4.png"
+                   alt=""
+                 /><span>Bắn Cá</span></a
+               >
+               <a href="./lo-de.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/5.png"
+                   alt=""
+                 /><span>Lô Đề</span></a
+               >
+               <a href="./no-hu.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/6.png"
+                   alt=""
+                 /><span>Nổ Hũ</span></a
+               >
+               <a href="./huong-dan.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/7.png"
+                   alt=""
+                 /><span>Hướng Dẫn</span></a
+               >
+             </div>
+  
+           </div>
+  
+  
+          </div>
+       </div>
+      </header>
+      <!-- container ===========-->
+      <div class="bg-[#06102D] text-white space-y-8 py-9 px-4 xl:px-0">
+        <div class="max-w-[1220px] mx-auto lg:flex space-y-10 lg:space-y-0">
+          <div
+            class="h-full lg:w-[76%] lg:pr-8 lg:border-r border-white space-y-8"
+          >
+            <div class="bg-[#000921] py-6 px-4 space-y-8 text-white relative">
+              <!-- 1 -->
+              <div class="space-y-7">
+                <div class="space-y-1">
+                  <p class="text-red-500 text-[12px]">BẮN CÁ</p>
+                  <h2 class="text-3xl font-bold">
+                    Kinh nghiệm chơi bắn cá Let’s Shoot đạt kết quả cao
+                  </h2>
+                </div>
+                <p class=" text-xs">
+                  POSTED ON &nbsp;<span class="text-red-500">THÁNG MƯỜI HAI 25, 2023</span>&nbsp; BY &nbsp;<span class="text-red-500">TA88SEOSOO82</span>
+                </p>
+                <!-- img1 -->
+                <div class="space-y-6">
+                  <p>
+                    <span class=" text-red-500">Let’s Shoot </span> từ khi ra đời đã thu hút đông đảo người chơi
+                    tham gia. Trong đại dương rộng lớn, có một tựa game bắn cá
+                    nổi bật như chiếc rương kho báu hấp dẫn. Với nhiều điều bí
+                    ẩn cần được khám phá đã tạo nên sự hấp dẫn của game bắn cá
+                    này. Cùng theo dõi nội dung bên dưới để có kinh nghiệm chơi
+                    hiệu quả tại TA88.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 30.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Let’s Shoot TA88 </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Giới thiệu đôi nét về game bắn cá Let’s Shoot
+                  </h3>
+                  <p>
+                    Trò chơi bắn cá này không có nhiều khác biệt so với các
+                    phiên bản truyền thống. Tuy nhiên, điều khiến người chơi cảm
+                    thấy thoải mái hơn là quá trình trải nghiệm tựa game này.
+                  </p>
+                </div>
+
+                <p>
+                  Bạn không cần phải dành nhiều thời gian di chuyển đến các điểm
+                  giải trí vui chơi khác. Vì ngay tại nhà, chỉ cần một chiếc
+                  điện thoại, bạn đã có thể chinh phục thế giới dưới đại dương.
+                </p>
+
+                <!-- img2 -->
+                <div class="space-y-6">
+                  <p>
+                    Với vài bước đơn giản, bạn có thể bắt đầu trải nghiệm mà
+                    không gặp bất kỳ khó khăn nào. Điều đặc biệt là tiền cược sẽ
+                    nhanh chóng được chuyển vào tài khoản sau khi trò chơi kết
+                    thúc. Điều này giúp bạn không phải mất quá nhiều thời gian
+                    để đổi lấy những phần thưởng hấp dẫn.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 31.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Game Let’s Shoot </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h4 class="text-2xl font-bold">
+                    Những điểm nổi bật chỉ có tại Let’s Shoot TA88
+                  </h4>
+                  <p>
+                    Chắc chắn rằng mọi người sẽ thích trò chơi này. Vậy lý do
+                    tại sao nó lại được quan tâm đến vậy? Sự yêu thích này không
+                    đến từ việc tình cờ mà đến do nó đem đến các ưu điểm xuất
+                    sắc. Bao gồm:
+                  </p>
+                </div>
+
+                <!-- img3 -->
+                <div class="space-y-6">
+                  <ul class="space-y-3 pl-6 list-disc">
+                    <li>
+                      <span>Ưu đãi đặc biệt cho lần nạp đầu tiên: </span
+                      ><b>Let’s Shoot </b
+                      ><span
+                        >tạo điểm độc đáo với chính sách thưởng 200% cho mỗi lần
+                        nạp đầu tiên. Số tiền thưởng có thể lên đến 5 triệu VNĐ,
+                        một mức thưởng đặc biệt cho những người mới.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Thưởng 110% cho lần nạp đầu tiên lên đến 10 triệu VNĐ:
+                        Đặc biệt áp dụng cho những người chưa từng thực hiện
+                        thao tác nạp tiền trước đó.&nbsp;</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Khuyến mãi thưởng 20% cho lần nạp thứ 2 trở đi: Không
+                        chỉ dừng lại ở đó game này còn mang lại mức thưởng 20%
+                        cho các lần nạp tiếp theo.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Chính sách bồi hoàn linh hoạt lên đến 1,5%: áp dụng cho
+                        tất cả cược thủ mới khi tham gia. Điều này tạo điều kiện
+                        thuận lợi cho việc trải nghiệm trò chơi mà không lo lắng
+                        về rủi ro.</span
+                      >
+                    </li>
+                  </ul>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 32.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Những điểm nổi bật chỉ có tại Let’s Shoot TA88</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Chia sẻ những kinh nghiệm chơi Let’s Shoot đạt kết quả cao
+                  </h3>
+                  <p>
+                    Tương tự như các trò đổi thưởng khác, để chiến thắng bạn cần
+                    có kỹ năng chơi game tốt. Ngoài ra, có những mẹo chơi giúp
+                    bạn hạ gục con cá nhanh chóng. Dưới đây là một số cách chơi
+                    để bạn có thể bắn trúng mục tiêu.
+                  </p>
+                </div>
+
+                <div class="space-y-6">
+                  <h3 class="text-xl font-bold">
+                    Học hỏi các chiến thuật từ chuyên gia
+                  </h3>
+                  <p>
+                    Sau thời gian trải qua nhiều trận đấu, kỹ năng của bạn sẽ
+                    đạt đến mức cao. Đây là cơ hội để bạn áp dụng chiến thuật
+                    bắn tăng đạn, tối ưu hóa hiệu suất trò chơi. Thay vì sử dụng
+                    súng với 1 viên đạn, bạn nên nâng cấp lên 2, 3 đạn,…
+                  </p>
+                </div>
+
+                <p>
+                  Mỗi lần bắn sẽ tính cược dựa trên số viên đạn bắn ra. Mặc dù
+                  số tiền đặt cược tăng lên, nhưng độ sát thương cũng tăng đáng
+                  kể. Điều này giúp bạn dễ dàng tiêu diệt các mục tiêu lớn hơn.
+                  Phương pháp này hiệu quả hơn so với sử dụng đạn đơn lẻ để đối
+                  phó với các con cá.
+                </p>
+
+                <div class="space-y-6">
+                  <h3 class="text-xl font-bold">Chiến thuật bắn nhử</h3>
+                  <p>
+                    Trong chiến lược này, người tham gia sẽ giữ đạn khi bắn, đặt
+                    vào lúc cần thiết. Trái ngược, những người khác sẽ quyết
+                    định tung đạn khi họ gần chết trong Let’s Shoot.
+                  </p>
+                </div>
+
+                <p>
+                  Quan trọng nhất là bạn phải sử dụng sự khôn khéo của mình. Khi
+                  sử dụng mồi nhử, họ cần phải cẩn trọng để người khác không thể
+                  dễ dàng phát hiện.
+                </p>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <div class="space-y-6">
+                    <h3 class="text-xl font-bold">
+                      Chiến thuật Let’s Shoot dội tường
+                    </h3>
+                    <p>
+                      Đây là một trong những chiêu bí mật khá hiệu quả nhưng
+                      cũng khá thách thức. Nếu bạn muốn tạo ra mối đe dọa đối
+                      với người khác, chiến thuật này là lựa chọn tốt. Bằng việc
+                      phản xạ, bạn sẽ liên tục bắn loạt đạn vào tường, tạo ra
+                      hiệu ứng phản lại. Người chơi cùng sẽ bị bất ngờ và khó
+                      lòng đối phó nhanh chóng với chiêu thức này của bạn.
+                    </p>
+                  </div>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 33.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Chia sẻ những kinh nghiệm chơi bắn cá Let’s Shoot</i>
+                    </p>
+                  </div>
+                </div>
+
+                <p>
+                    Bài viết trên đã giúp người chơi hiểu về game bắn cá Let’s Shoot và kinh nghiệm chơi hiệu quả. Nếu còn thắc mắc về chủ đề này hãy liên hệ với TA88 để được giải đáp.
+                </p>
+              </div>
+             
+
+              <!-- ============> line -->
+              <div class="h-14 md:h-20"></div>
+          
+
+              <div
+              class="flex items-center border-y border-white absolute w-full bottom-0 left-0"
+            >
+              <div
+                class="w-full border-r border-white py-1 md:py-3 text-red-600 pr-2 md:pr-4"
+              >
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl -mb-1"
+                    name="chevron-back-outline"
+                  ></ion-icon
+                ></span>
+                <span class="text-sm md:text-lg">
+                  Săn Hũ Đại Dương TA88 – Tựa game lý tưởng dành cho mọi ngư thủ
+
+                </span>
+              </div>
+              <div
+                class="w-full border-white py-1 md:py-3 text-red-600 pl-2 md:pl-4 text-end"
+              >
+                <span class="text-sm md:text-lg">
+                  Khuyến mãi TA88 – Khởi đầu kỷ nguyên so tài cá cược 900.000.000 VNĐ 
+                </span>
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl -mb-1"
+                    name="chevron-forward-outline"
+                  ></ion-icon
+                ></span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="containt-right h-full lg:w-[24%] lg:pl-8 space-y-8">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-bold uppercase">BÀI VIẾT MỚI</h1>
+              <p class="text-red-500">
+                Hướng dẫn cách chơi Sicbo online tại sòng bài TA88
+              </p>
+              <p class="text-red-500">
+                Game bắn cá Ocean Lord khám phá bí mật đại dương tại TA88
+              </p>
+              <p class="text-red-500">
+                Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+              </p>
+              <p class="text-red-500">
+                Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch
+                sử
+              </p>
+              <p>Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88</p>
+            </div>
+            <div class="space-y-4">
+              <h1 class="text-3xl font-bold uppercase">GAMES TA88</h1>
+              <p class="text-red-500"><a href="./ban-ca.html">Bắn Cá</a></p>
+              <p class="text-red-500"><a href="./game-bai.html">Game Bài</a></p>
+              <p class="text-red-500">
+                <a href="./huong-dan.html">Hướng Dẫn</a>
+              </p>
+              <p class="text-red-500"><a href="./lo-de.html">Lô Đề</a></p>
+              <p class="text-red-500"><a href="./no-hu.html">Nổ Hũ</a></p>
+              <p class="text-red-500"><a href="./the-thao.html">Thể Thao</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer>
+        <div class="w-full bg-[#0E0026]">
+          <div
+            class="px-4 xl:px-0 max-w-[1220px] mx-auto space-y-6 text-white py-12"
+          >
+            <p>
+              Đến với TA88 là bạn đang đến với thế giới của sự chuyên nghiệp,
+              đẳng cấp mà một nhà cái hàng đầu châu Á mang lại. TA88 đem đến cho
+              khách hàng dịch vụ cá cược trực tuyến hàng đầu với hàng trăm sản
+              phẩm cược hấp dẫn như: Thể Thao, Thể Thao Ảo, Casino, Number Game,
+              Keno, Sòng Bài Số, Lottery,….
+            </p>
+            <img src="./Images/h2.webp" alt="" />
+          </div>
+          <div class="bg-[#0E182F]">
+            <div class="max-w-[1220px] mx-auto py-12 px-4 xl:px-0">
+              <button
+                class="flex items-center space-x-4 px-6 py-2 rounded border bg-[#B30006] text-white font-bold uppercase"
+              >
+                <img class="h-[20px]" src="./Images/h3.png" alt="" />
+                <p class="text-lg">CONTINUE (X/X)</p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center bg-[#000000] text-sm px-4 md:text-base py-4 text-gray-400 font-semibold"
+          >
+            Copyright 2024 © TA88.TEAM - ĐỐI TÁC UY TÍN Nhà Cái TA88 CHÍNH
+            THỨC HIỆN NAY
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>

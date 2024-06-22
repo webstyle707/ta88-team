@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>vong-1-8-la-gi</title>
+    <meta
+      data-n-head="ssr"
+      data-hid="keywords"
+      name="keywords"
+      content="Nhà cái TA88"
+    />
+    <meta
+      data-n-head="ssr"
+      data-hid="description"
+      name="description"
+      content="TA88 là trang cá độ Thể Thao, Live Casino, Game Bài uy tín nhất hiện nay, với tỉ lệ kèo đa dạng, giao diện hiện đại hàng đầu thị trường. Hỗ trợ nạp tiền bảo mật, không lộ danh tính, nạp tiền cực nhanh trong vòng 5 phút. Bảo mật thông tin, xử lý nhanh chóng, tham gia ngay!"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header    ===========-->
+      <header class="sticky z-10 top-0 bg-[#0E182F]">
+        <div
+          class="hidden max-w-[1220px] h-[79px] mx-auto px-6 xl:px-0 py-11 text-white lg:flex items-center justify-center space-x-2 xl:space-x-0 xl:justify-between pl-10 xl:pl-4"
+        >
+          <div>
+            <img class="w-[130px] h-[58.50px]" src="./Images/logo.png" alt="" />
+          </div>
+
+          <div class="pl-10 xl:pl-0">
+            <div
+              class="flex pl-5 xl:pl-0 text-xs xl:text-base flex-wrap items-center *:py-1 space-x-4 font-bold uppercase *:flex *:items-center *:justify-center *:space-x-1"
+            >
+              <a href="./index.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/1.png"
+                  alt=""
+                /><span>TRANG CHỦ</span></a
+              >
+              <a href="./the-thao.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/2.png"
+                /><span>Thể Thao</span></a
+              >
+              <a href="./game-bai.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/3.png"
+                  alt=""
+                /><span>Game Bài</span></a
+              >
+              <a href="./ban-ca.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/4.png"
+                  alt=""
+                /><span>Bắn Cá</span></a
+              >
+              <a href="./lo-de.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/5.png"
+                  alt=""
+                /><span>Lô Đề</span></a
+              >
+              <a href="./no-hu.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/6.png"
+                  alt=""
+                /><span>Nổ Hũ</span></a
+              >
+              <a href="./huong-dan.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/7.png"
+                  alt=""
+                /><span>Hướng Dẫn</span></a
+              >
+            </div>
+          </div>
+
+          <div
+            class="w-[25%] xl:w-[auto] flex items-center justify-end space-x-4 font-bold uppercase text-[13px] xl:text-[14px]"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#2B3459]"
+              >
+                Support TA88
+              </button>
+            </a>
+
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#EC6725]"
+              >
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="w-full bg-[#0E182F] lg:hidden">
+          <div
+            class="flex items-center justify-between px-10 md:px-20 pt-4 pb-2"
+          >
+            <div
+              class="text-white text-2xl w-9 h-9 bg-[#035DAB] border-[1px] border-gray-300 flex items-center justify-center rounded-lg"
+            >
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+            <div>
+              <img class="w-36" src="./Images/logo.png" alt="" />
+            </div>
+            <div></div>
+          </div>
+
+          <div
+            class="w-full text-white font-semibold space-x-4 py-2 shadow border-t border-gray-700 uppercase text-xs bg-[#000E56] flex items-center justify-center"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#2B3459]">
+                Support TA88
+              </button>
+            </a>
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#EC6725]">
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <!-- side nav -->
+        <div class="menu w-full lg:hidden h-screen fixed top-0 -left-full">
+          <div
+            class="h-full w-full relative transition-all duration-500 bg-gray-950 inset-0 bg-opacity-60 top-0 z-50"
+          >
+            <div class="absolute top-5 right-5 text-gray-300 text-3xl">
+              <ion-icon onclick="hideNav()" name="close-outline"></ion-icon>
+            </div>
+            <div class="h-full w-[35%] bg-[#010103]">
+              <div
+                class="*:pl-3 px-[2px] text-gray-300 pt-16 text-sm *:pb-2 *:w-full space-y-4 font-bold uppercase flex flex-col items-start *:flex *:items-center *:justify-start *:space-x-1 *:border-b *:border-gray-700"
+              >
+                <a href="./index.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/1.png"
+                    alt=""
+                  /><span>TRANG CHỦ</span></a
+                >
+                <a href="./the-thao.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/2.png"
+                  /><span>Thể Thao</span></a
+                >
+                <a href="./game-bai.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/3.png"
+                    alt=""
+                  /><span>Game Bài</span></a
+                >
+                <a href="./ban-ca.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/4.png"
+                    alt=""
+                  /><span>Bắn Cá</span></a
+                >
+                <a href="./lo-de.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/5.png"
+                    alt=""
+                  /><span>Lô Đề</span></a
+                >
+                <a href="./no-hu.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/6.png"
+                    alt=""
+                  /><span>Nổ Hũ</span></a
+                >
+                <a href="./huong-dan.html"
+                  ><img
+                    class="w-[15px] h-[15px]"
+                    src="./Images/img-menu/7.png"
+                    alt=""
+                  /><span>Hướng Dẫn</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- container ===========-->
+      <div class="bg-[#06102D] text-white space-y-8 py-9 px-4 xl:px-0">
+        <div class="max-w-[1220px] mx-auto lg:flex space-y-10 lg:space-y-0">
+          <div
+            class="h-full lg:w-[76%] lg:pr-8 lg:border-r border-white space-y-8"
+          >
+            <div class="bg-[#000921] py-6 px-4 space-y-8 text-white relative">
+              <!-- 1 -->
+              <div class="space-y-7">
+                <div class="space-y-1">
+                  <p class="text-red-500 text-[12px]">THỂ THAO</p>
+                  <h2 class="text-3xl font-bold">
+                    Cách đọc kèo bóng đá siêu đơn giản tại TA88
+                  </h2>
+                </div>
+
+                <p class="text-xs">
+                  POSTED ON &nbsp;<span class="text-red-500"
+                    >THÁNG MỘT 25, 2024</span
+                  >&nbsp; BY &nbsp;<span class="text-red-500"
+                    >TA88SEOSOO82</span
+                  >
+                </p>
+                <!-- img1 -->
+                <div class="space-y-6">
+                  <p>
+                    Biết
+                    <span class="text-red-500"> cách đọc kèo bóng đá </span> là
+                    một kỹ năng quan trọng đối với những người chơi cá độ môn
+                    thể thao vua. Việc hiểu rõ về kèo nhà cái đưa ra sẽ góp phần
+                    khiến bạn có những quyết định đặt cược chính xác hơn. Vậy
+                    cách thức đọc kèo là gì? Câu hỏi sẽ được TA88 giải thích
+                    qua bài viết dưới đây.
+                  </p>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/cach-doc-keo/Artboard 1.png"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Cách đọc kèo bóng đá </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Ưu thế khi biết cách đọc kèo bóng đá là gì?
+                  </h3>
+                  <p>
+                    Sở hữu trong tay cách thức soi kèo cũng là nắm trong tay đến
+                    70% của sự chiến thắng. “Biết người, biết ta, trăm trận trăm
+                    thắng”. Nếu bạn là người hâm mộ hiểu rõ về tỷ lệ kèo thì
+                    đồng nghĩa với việc bạn có thể đưa ra những dự đoán chính
+                    xác hơn về trận đấu.
+                  </p>
+                </div>
+
+                <!-- img2 -->
+                <div class="space-y-6">
+                  <p>
+                    Ngoài ra khi có những kiến thức, người chơi sẽ có thể tránh
+                    được những rủi ro không đáng có. Đây là một cơ hội vô cùng
+                    to lớn để bạn kiếm được những đồng tiền từ đam mê của mình.
+                    Để biết cách đọc kèo, anh em cần tìm hiểu về tất cả những
+                    kèo hiện có, cách tính tỷ lệ kèo.
+                  </p>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/cach-doc-keo/Artboard 2.png"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Ưu thế khi biết cách đọc kèo bóng đá là gì? </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Những mẹo để đọc kèo chuẩn xác hơn
+                  </h3>
+                  <p>
+                    Bạn cần hiểu qua về những mẹo nhỏ để quá trình soi cược của
+                    mình trở nên đơn giản hơn. Những lưu ý cần ghi nhớ bao gồm:
+                  </p>
+                </div>
+
+                <div class="space-y-6">
+                  <h4 class="text-xl font-bold">
+                    Có những hiểu biết về các loại kèo bóng
+                  </h4>
+                  <p>
+                    Trong bóng đá, bạn sẽ nhận thấy nhiều loại cược khác nhau.
+                    Mỗi kèo đều mang một tính chất và ưu thế riêng. Để hiểu hết
+                    được những yếu tố này và tạo lợi thế cho bản thân, sự tìm
+                    tòi chăm chỉ là điều cần thiết.
+                  </p>
+                </div>
+
+                <!-- img3 -->
+                <div class="space-y-6">
+                  <p>
+                    Một số kèo cược thể thao được nhiều người ưa chuộng hàng đầu
+                    là kèo Châu Á và Châu Âu. Ngoài ra, còn có các kèo khác như
+                    chấp nửa trái, chấp nửa một, tổng bàn thắng, thẻ phạt, phạt
+                    góc,…
+                  </p>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/cach-doc-keo/Artboard 3.png"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Hiểu biết về các loại kèo bóng</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-xl font-bold">Học cách tính tỷ lệ kèo</h3>
+                  <p>
+                    Sau khi bạn đã có lượng kiến thức đa dạng, người chơi cần
+                    học cách tính tỷ lệ kèo của từng loại trong đó. Đây là một
+                    con số được nhà cái đưa ra để thể hiện khả năng thắng cược
+                    của mỗi đội bóng trong một trận đấu. Chữ số này càng cao thì
+                    xác suất thắng của câu lạc bộ đó càng thấp và ngược lại.
+                  </p>
+                </div>
+                <div class="space-y-6">
+                  <h3 class="text-xl font-bold">Luyện tập thường xuyên</h3>
+                  <p>
+                    Cách tốt nhất để học cách soi kèo là luyện tập hàng ngày,
+                    hàng tuần. Anh em có thể luyện tập dự đoán kết quả trận đấu
+                    dựa trên tỷ lệ kèo.
+                  </p>
+                </div>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <p>
+                    Bên cạnh đó, một cách thức để thực chiến đó là việc đặt kèo
+                    trực tiếp. Tuy nhiên, hãy bắt đầu bằng con số nhỏ để hiểu
+                    được cách vận hành của nhà cái.
+                  </p>
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/cach-doc-keo/Artboard 4.png"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Những mẹo để đọc kèo chuẩn xác hơn</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Cách đọc kèo bóng đá dễ dàng, nhanh chóng
+                  </h3>
+                  <p>
+                    Dưới đây, TA88 xin gửi đến bạn phương pháp đọc hai loại
+                    kèo được nhiều người lựa chọn nhất, đó là kèo Á và Âu. Cách
+                    tính cụ thể của chúng như sau:
+                  </p>
+                </div>
+                <div class="space-y-6">
+                  <h3 class="text-xl font-bold">Kèo châu Á (Handicap)</h3>
+                  <p>
+                    Trong kèo châu Á, nhà cái sẽ đưa ra một tỷ lệ chấp cho hai
+                    đội bóng. Câu lạc bộ được chấp được gọi là đội cửa trên và
+                    ngược lại. Người chơi sẽ cược vào đội mà họ tin sẽ giành
+                    chiến thắng sau khi trừ đi tỷ lệ chấp.
+                  </p>
+                  <p>
+                    Ví dụ, trong trận đấu Việt Nam và đội tuyển Thái Lan, nhà
+                    cái đưa ra tỷ lệ chấp là 0.5 cho tuyển nước nhà. Điều này có
+                    nghĩa là Việt Nam chỉ cần thắng với cách biệt 1 bàn hoặc hòa
+                    thì người cược vào đội nhà sẽ chiến thắng.
+                  </p>
+                </div>
+
+                <!-- img5 -->
+                <div class="space-y-6 text-base">
+                  <ul class="list-disc pl-6 space-y-6">
+                    <li>
+                      <span class=" ">Nếu tỷ lệ chấp dương:</span>
+                      <ul class="list-disc space-y-3 pl-8">
+                        <li>
+                          <span
+                            >Tỷ số kèo đội cửa trên – cửa dưới = Kèo chấp thực
+                            tế.</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            >Cược thủ đặt tiền vào đội cửa trên sẽ thắng nếu đội
+                            bóng đó có số bàn ghi được lớn hơn hoặc bằng tỷ lệ
+                            kèo chấp thực tế.</span
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <span class="">Trong trường hợp kèo chấp âm:</span>
+                      <ul class="list-disc space-y-3 pl-8">
+                        <li>
+                          <span
+                            >Tỷ lệ kèo câu lạc bộ trên + kèo cửa dưới = Kèo chấp
+                            thực.</span
+                          >
+                        </li>
+                        <li>
+                          <span
+                            >Tương tự, nếu anh em đặt tiền vào cửa trên sẽ giành
+                            được chiến thắng nếu như số bóng vào cách biệt lớn
+                            hơn hoặc bằng tỷ lệ kèo chấp thực tế.</span
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/cach-doc-keo/Artboard 5.png"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Kèo châu Á</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6 -->
+              <div class="space-y-7">
+                <!-- img5 -->
+                <div class="space-y-6 text-base">
+                  <h4 class="text-xl font-bold">Kèo châu Âu (1×2)</h4>
+                  <p>
+                    Với kèo cá cược châu Âu, nền tảng cá cược sẽ bày ra ba kết
+                    quả là thắng, hòa, thua. Anh em sẽ được lựa chọn một trong
+                    ba đề xuất đó. Người chơi sẽ thắng cược nếu lựa chọn được
+                    đúng đáp án như mong muốn. Người chơi cần có kiến thức về
+                    bóng đá và khả năng phán đoán chính xác kết quả trận đấu.
+                  </p>
+
+                  <div class="space-y-2">
+                    <img
+                      class="w-full"
+                      src="./Images/cach-doc-keo/Artboard 6.png"
+                      alt=""
+                    />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Cách đọc kèo bóng đá dễ dàng, nhanh chóng</i>
+                    </p>
+                  </div>
+                </div>
+
+                <p>
+                  Bài viết trên của TA88 mang đến cho anh em những kiến thức
+                  cụ thể nhất. Chúng tôi mang đến người dùng chủ đề cách đọc kèo
+                  bóng đá này với hy vọng mang lại giá trị cho khách hàng của
+                  mình. Chúc bạn luôn bình an, hạnh phúc và chiến thắng trong
+                  mọi kèo cược.
+                </p>
+              </div>
+
+              <!-- ============> line -->
+              <div class="h-14 md:h-20"></div>
+
+              <div
+                class="flex items-center border-y border-white absolute w-full bottom-0 left-0"
+              >
+                <div
+                  class="w-full border-r border-white py-1 md:py-3 text-red-600 pr-2 md:pr-4"
+                >
+                  <span class=""
+                    ><ion-icon
+                      class="text-2xl -mb-1"
+                      name="chevron-back-outline"
+                    ></ion-icon
+                  ></span>
+                  <span class="text-sm md:text-lg">
+                    Lô xiên là gì? Tỷ lệ trúng thưởng tiền khủng tại TA88
+                  </span>
+                </div>
+                <div
+                  class="w-full border-white py-1 md:py-3 text-red-600 pl-2 md:pl-4 text-end"
+                >
+                  <span class="text-sm md:text-lg">
+                    Lô đầu đuôi là gì? Tại sao nó thu hút người chơi đến vậy? 
+                  </span>
+                  <span class=""
+                    ><ion-icon
+                      class="text-2xl -mb-1"
+                      name="chevron-forward-outline"
+                    ></ion-icon
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="containt-right h-full lg:w-[24%] lg:pl-8 space-y-8">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-bold uppercase">BÀI VIẾT MỚI</h1>
+              <p class="text-red-500">
+                Hướng dẫn cách chơi Sicbo online tại sòng bài TA88
+              </p>
+              <p class="text-red-500">
+                Game bắn cá Ocean Lord khám phá bí mật đại dương tại TA88
+              </p>
+              <p class="text-red-500">
+                Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+              </p>
+              <p class="text-red-500">
+                Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch
+                sử
+              </p>
+              <p>Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88</p>
+            </div>
+            <div class="space-y-4">
+              <h1 class="text-3xl font-bold uppercase">GAMES TA88</h1>
+              <p class="text-red-500"><a href="./ban-ca.html">Bắn Cá</a></p>
+              <p class="text-red-500"><a href="./game-bai.html">Game Bài</a></p>
+              <p class="text-red-500">
+                <a href="./huong-dan.html">Hướng Dẫn</a>
+              </p>
+              <p class="text-red-500"><a href="./lo-de.html">Lô Đề</a></p>
+              <p class="text-red-500"><a href="./no-hu.html">Nổ Hũ</a></p>
+              <p class="text-red-500"><a href="./the-thao.html">Thể Thao</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer>
+        <div class="w-full bg-[#0E0026]">
+          <div
+            class="px-4 xl:px-0 max-w-[1220px] mx-auto space-y-6 text-white py-12"
+          >
+            <p>
+              Đến với TA88 là bạn đang đến với thế giới của sự chuyên nghiệp,
+              đẳng cấp mà một nhà cái hàng đầu châu Á mang lại. TA88 đem đến cho
+              khách hàng dịch vụ cá cược trực tuyến hàng đầu với hàng trăm sản
+              phẩm cược hấp dẫn như: Thể Thao, Thể Thao Ảo, Casino, Number Game,
+              Keno, Sòng Bài Số, Lottery,….
+            </p>
+            <img src="./Images/h2.webp" alt="" />
+          </div>
+          <div class="bg-[#0E182F]">
+            <div class="max-w-[1220px] mx-auto py-12 px-4 xl:px-0">
+              <button
+                class="flex items-center space-x-4 px-6 py-2 rounded border bg-[#B30006] text-white font-bold uppercase"
+              >
+                <img class="h-[20px]" src="./Images/h3.png" alt="" />
+                <p class="text-lg">CONTINUE (X/X)</p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center bg-[#000000] text-sm px-4 md:text-base py-4 text-gray-400 font-semibold"
+          >
+            Copyright 2024 © TA88.TEAM - ĐỐI TÁC UY TÍN Nhà Cái TA88 CHÍNH
+            THỨC HIỆN NAY
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>

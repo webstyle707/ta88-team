@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>game-no-hu</title>
+    <meta
+      data-n-head="ssr"
+      data-hid="keywords"
+      name="keywords"
+      content="Nhà cái TA88"
+    />
+    <meta
+      data-n-head="ssr"
+      data-hid="description"
+      name="description"
+      content="TA88 là trang cá độ Thể Thao, Live Casino, Game Bài uy tín nhất hiện nay, với tỉ lệ kèo đa dạng, giao diện hiện đại hàng đầu thị trường. Hỗ trợ nạp tiền bảo mật, không lộ danh tính, nạp tiền cực nhanh trong vòng 5 phút. Bảo mật thông tin, xử lý nhanh chóng, tham gia ngay!"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header    ===========-->
+      <header class="sticky z-10 top-0 bg-[#0E182F]">
+        <div
+          class="hidden max-w-[1220px] h-[79px] mx-auto px-6 xl:px-0 py-11 text-white lg:flex items-center justify-center space-x-2 xl:space-x-0 xl:justify-between pl-10 xl:pl-4"
+        >
+          <div>
+            <img class="w-[130px] h-[58.50px]" src="./Images/logo.png" alt="" />
+          </div>
+
+          <div class="pl-10 xl:pl-0">
+            <div
+              class="flex pl-5 xl:pl-0 text-xs xl:text-base flex-wrap items-center *:py-1 space-x-4 font-bold uppercase *:flex *:items-center *:justify-center *:space-x-1"
+            >
+              <a href="./index.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/1.png"
+                  alt=""
+                /><span>TRANG CHỦ</span></a
+              >
+              <a href="./the-thao.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/2.png"
+                /><span>Thể Thao</span></a
+              >
+              <a href="./game-bai.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/3.png"
+                  alt=""
+                /><span>Game Bài</span></a
+              >
+              <a href="./ban-ca.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/4.png"
+                  alt=""
+                /><span>Bắn Cá</span></a
+              >
+              <a href="./lo-de.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/5.png"
+                  alt=""
+                /><span>Lô Đề</span></a
+              >
+              <a href="./no-hu.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/6.png"
+                  alt=""
+                /><span>Nổ Hũ</span></a
+              >
+              <a href="./huong-dan.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/7.png"
+                  alt=""
+                /><span>Hướng Dẫn</span></a
+              >
+            </div>
+          </div>
+
+          <div
+            class="w-[25%] xl:w-[auto] flex items-center justify-end space-x-4 font-bold uppercase text-[13px] xl:text-[14px]"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#2B3459]"
+              >
+                Support TA88
+              </button>
+            </a>
+
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#EC6725]"
+              >
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="w-full bg-[#0E182F] lg:hidden">
+          <div
+            class="flex items-center justify-between px-10 md:px-20 pt-4 pb-2"
+          >
+            <div
+              class="text-white text-2xl w-9 h-9 bg-[#035DAB] border-[1px] border-gray-300 flex items-center justify-center rounded-lg"
+            >
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+            <div>
+              <img class="w-36" src="./Images/logo.png" alt="" />
+            </div>
+            <div></div>
+          </div>
+
+          <div
+            class="w-full text-white font-semibold space-x-4 py-2 shadow border-t border-gray-700 uppercase text-xs bg-[#000E56] flex items-center justify-center"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#2B3459]">
+                Support TA88
+              </button>
+            </a>
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#EC6725]">
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+
+         <!-- side nav -->
+         <div class="menu w-full lg:hidden h-screen fixed top-0 -left-full">
+          <div class="h-full w-full relative transition-all duration-500 bg-gray-950 inset-0 bg-opacity-60 top-0 z-50">
+           <div class=" absolute top-5 right-5 text-gray-300 text-3xl">
+             <ion-icon onclick="hideNav()" name="close-outline"></ion-icon>
+           </div>
+           <div class=" h-full w-[35%] bg-[#010103]">
+             <div
+               class="*:pl-3 px-[2px] text-gray-300 pt-16 text-sm *:pb-2 *:w-full space-y-4 font-bold uppercase flex flex-col items-start *:flex *:items-center *:justify-start *:space-x-1 *:border-b *:border-gray-700"
+             >
+               <a href="./index.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/1.png"
+                   alt=""
+                 /><span>TRANG CHỦ</span></a
+               >
+               <a href="./the-thao.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/2.png"
+                 /><span>Thể Thao</span></a
+               >
+               <a href="./game-bai.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/3.png"
+                   alt=""
+                 /><span>Game Bài</span></a
+               >
+               <a href="./ban-ca.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/4.png"
+                   alt=""
+                 /><span>Bắn Cá</span></a
+               >
+               <a href="./lo-de.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/5.png"
+                   alt=""
+                 /><span>Lô Đề</span></a
+               >
+               <a href="./no-hu.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/6.png"
+                   alt=""
+                 /><span>Nổ Hũ</span></a
+               >
+               <a href="./huong-dan.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/7.png"
+                   alt=""
+                 /><span>Hướng Dẫn</span></a
+               >
+             </div>
+  
+           </div>
+  
+  
+          </div>
+       </div>
+      </header>
+      <!-- container ===========-->
+      <div class="bg-[#06102D] text-white space-y-8 py-9 px-4 xl:px-0">
+        <div class="max-w-[1220px] mx-auto lg:flex space-y-10 lg:space-y-0">
+          <div
+            class="h-full lg:w-[76%] lg:pr-8 lg:border-r border-white space-y-8"
+          >
+            <div class="bg-[#000921] py-6 px-4 space-y-8 text-white relative">
+              <!-- 1 -->
+              <div class="space-y-7">
+                <div class="space-y-1">
+                  <p class="text-red-500 text-[12px]">NỔ HŨ</p>
+                  <h2 class="text-3xl font-bold">
+                    Game nổ hũ Hội pháo đêm trăng – Bùng nổ may mắn, rinh quà
+                    khủng!
+                  </h2>
+                </div>
+                <p class=" text-xs">
+                  POSTED ON &nbsp;<span class="text-red-500">THÁNG MỘT 17, 2024</span>&nbsp; BY &nbsp;<span class="text-red-500">TA88SEOSOO82</span>
+                </p>
+                <!-- img1 -->
+                <div class="space-y-6">
+                  <p>
+                    Tại <span class="text-red-500"> game nổ hũ</span> Hội pháo
+                    đêm trăng người chơi sẽ được đắm chìm trong không khí trung
+                    thu tràn ngập niềm vui, hồi hộp. Tại đây, những chiếc pháo
+                    hoa lung linh trên bảng quay là cơ hội săn hũ đầy kịch tính.
+                    Với giao diện đẹp mắt, trò chơi mang đến trải nghiệm giải
+                    trí độc đáo và hấp dẫn cho người chơi.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 65.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Game nổ hũ </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Tổng quan game nổ hũ Hội pháo đêm trăng
+                  </h3>
+                  <p>
+                    Game nổ hũ Hội pháo đêm trăng của TA88 là một hành trình hồi
+                    tưởng đầy kỷ niệm về những đêm trung thu ấm áp. Bạn sẽ bắt
+                    gặp những hình ảnh quen thuộc như chú Tễu, bánh trung thu
+                    thơm ngon và những trống đánh rộn ràng. Được thiết kế với đồ
+                    họa 3D tinh tế, mỗi biểu tượng trên cuộn trò chơi đều gợi
+                    nhắc về không khí vui nhộn của ngày Tết trung thu.
+                  </p>
+                </div>
+                <p>
+                  Giao diện game chứa đựng những bản nhạc truyền thống, tạo nên
+                  bầu không khí rộn ràng. Điều này kết hợp với âm thanh sinh
+                  động để tạo nên một không gian hứng khởi, đậm chất lễ hội.
+                </p>
+
+                <!-- img2 -->
+                <div class="space-y-6">
+                  <p>
+                    Bên cạnh niềm vui tái hiện từ ký ức, người chơi còn có cơ
+                    hội nhận những phần thưởng giá trị từ TA88. Game Hội pháo
+                    đêm trăng là cơ hội trải nghiệm sự hồi hộp và may mắn từ
+                    những vòng quay nổ hũ.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 66.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Game nổ hũ Hội pháo đêm trăng </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Luật chơi của game nổ hũ Hội pháo đêm trăng tại TA88
+                  </h3>
+                  <p>
+                    Luật chơi của game nổ hũ Hội pháo đêm trăng tại TA88 giống
+                    với nhiều trò nổ hũ khác. Một số điểm quan trọng cần biết:
+                  </p>
+                </div>
+
+                <ul class="list-disc pl-6 space-y-3">
+                  <li>
+                    <span
+                      >Game cung cấp 243 dòng thanh toán, mỗi dòng đại diện cho
+                      một cách thắng. Người chơi có 243 cơ hội khác nhau để
+                      giành chiến thắng.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Chiến thắng được xác định bằng cách nhìn vào sự xuất hiện
+                      liên tiếp của các biểu tượng từ cột thứ nhất, từ trái sang
+                      phải. Biểu tượng Bánh Vàng là ngoại lệ và có thể xuất hiện
+                      ở bất kỳ vị trí nào.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Hệ thống sẽ trả thưởng cho chiến thắng cao nhất trên mỗi
+                      dòng thanh toán. Giá trị phần thưởng phụ thuộc vào giá trị
+                      của biểu tượng và mức cược của người chơi. Mức cược càng
+                      cao, phần thưởng càng lớn.</span
+                    >
+                  </li>
+                  <li>
+                    <span
+                      >Mỗi biểu tượng có giá trị trả thưởng khác nhau. Người
+                      chơi có thể tìm hiểu về giá trị của từng biểu tượng trong
+                      bảng thanh toán để đưa ra quyết định cược phù hợp.</span
+                    >
+                  </li>
+                </ul>
+
+                <!-- img3 -->
+                <div class="space-y-6">
+                  <p>
+                    Game nổ hũ này mang lại cho người chơi trải nghiệm độc đáo,
+                    cơ hội giành những phần thưởng hấp dẫn.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 67.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Luật chơi của game nổ hũ Hội pháo đêm trăng</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Những phần thưởng hấp dẫn của game nổ hũ
+                  </h3>
+                  <p>
+                    Trong Hội pháo đêm trăng TA88, người chơi sẽ gặp phải những
+                    biểu tượng đặc biệt có thể nâng cao cơ hội chiến thắng:
+                  </p>
+                </div>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <div class="space-y-6">
+                    <h4 class="text-xl font-bold">Biểu tượng Wild</h4>
+                    <p>
+                      Wild xuất hiện ở các cột 2-3-4-5 và có khả năng thay thế
+                      cho mọi biểu tượng khác, tạo ra những liên kết chiến
+                      thắng. Khi Wild xuất hiện, chúng sẽ được giữ lại trên ma
+                      trận trong 2 lượt quay tiếp theo tăng cơ hội chiến thắng
+                      của người chơi.
+                    </p>
+                  </div>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 68.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Biểu tượng Wild</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 5 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h4 class="text-xl font-bold">Biểu tượng Jackpot</h4>
+                  <p>
+                    Biểu tượng Wild bắn lửa lên dây pháo mỗi lần quay, mở đường
+                    vào chế độ “Chọn Hũ”. Các hũ bao gồm: Minor, Major, Grand và
+                    Dragon.
+                  </p>
+                </div>
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <p>
+                    Hũ Dragon có giá trị lớn nhất, có thể đạt đến cả tỷ đồng.
+                    Người chơi có cơ hội kiếm được phần thưởng khủng nếu thu
+                    thập được 3 biểu tượng Dragon giống nhau, mở ra cơ hội trở
+                    thành những triệu phú đột ngột.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 69.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Biểu tượng Jackpot</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 6 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h4 class="text-xl font-bold">
+                    Bí quyết săn hũ Hội pháo đêm trăng TA88 thành công
+                  </h4>
+                  <p>
+                    Để có thành công khi săn hũ trong game Hội pháo đêm trăng
+                    TA88, người chơi có thể áp dụng một số bí quyết sau:
+                  </p>
+                </div>
+
+                <!-- img6 -->
+                <div class="space-y-6">
+                  <ul class="list-disc pl-6 space-y-3">
+                    <li>
+                      <span
+                        >Hiểu rõ giá trị giải thưởng của từng biểu tượng là quan
+                        trọng để tối ưu hóa cơ hội chiến thắng. Việc nắm vững
+                        luật chơi giúp người chơi đưa ra quyết định tốt hơn
+                        trong việc đặt cược và quản lý ngân sách.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Bắt đầu với mức cược nhỏ và tăng dần khi đã quen với
+                        cách chơi là một chiến thuật sáng tạo. Điều này giúp
+                        giảm rủi ro, tạo cơ hội để người chơi nắm bắt game hơn
+                        trước khi đặt cược lớn.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Tâm lý ổn định quyết định đến kết quả cuối cùng. Bạn
+                        cần giữ tâm lý bình tĩnh cả khi thắng lớn hay thua
+                        mất.</span
+                      >
+                    </li>
+                  </ul>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 70.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Bí quyết săn hũ Hội pháo đêm trăng TA88 thành công</i>
+                    </p>
+                  </div>
+                </div>
+
+                <p>
+                  Trong game nổ hũ Hội pháo đêm trăng TA88 người chơi chiêm
+                  ngưỡng cảm giác hồi hộp khi bắn pháo hoa trên bảng quay. Trò
+                  chơi trở thành điểm đến không thể bỏ qua cho những người yêu
+                  thích niềm vui, may mắn. Chắc chắn, game nổ hũ này sẽ làm nổi
+                  bật mỗi khoảnh khắc trò chơi và mang đến những trải nghiệm
+                  đáng nhớ.
+                </p>
+              </div>
+
+              <!-- ============> line -->
+              <div class="h-20"></div>
+         
+
+              <div
+              class="flex items-center border-y border-white absolute w-full bottom-0 left-0"
+            >
+              <div
+                class="w-full border-r border-white py-1 md:py-3 text-red-600 pr-2 md:pr-4"
+              >
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl -mb-1"
+                    name="chevron-back-outline"
+                  ></ion-icon
+                ></span>
+                <span class="text-sm md:text-lg">
+                  Slot online Đại Tiệc Bánh Gừng siêu hot tại TA88
+
+                </span>
+              </div>
+              <div
+                class="w-full border-white py-1 md:py-3 text-red-600 pl-2 md:pl-4 text-end"
+              >
+                <span class="text-sm md:text-lg">
+                  Baccarat là gì? Kinh nghiệm bất bại khi chơi Baccarat
+
+                </span>
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl -mb-1"
+                    name="chevron-forward-outline"
+                  ></ion-icon
+                ></span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="containt-right h-full lg:w-[24%] lg:pl-8 space-y-8">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-bold uppercase">BÀI VIẾT MỚI</h1>
+              <p class="text-red-500">
+                Hướng dẫn cách chơi Sicbo online tại sòng bài TA88
+              </p>
+              <p class="text-red-500">
+                Game bắn cá Ocean Lord khám phá bí mật đại dương tại TA88
+              </p>
+              <p class="text-red-500">
+                Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+              </p>
+              <p class="text-red-500">
+                Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch
+                sử
+              </p>
+              <p>Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88</p>
+            </div>
+            <div class="space-y-4">
+              <h1 class="text-3xl font-bold uppercase">GAMES TA88</h1>
+              <p class="text-red-500"><a href="./ban-ca.html">Bắn Cá</a></p>
+              <p class="text-red-500"><a href="./game-bai.html">Game Bài</a></p>
+              <p class="text-red-500">
+                <a href="./huong-dan.html">Hướng Dẫn</a>
+              </p>
+              <p class="text-red-500"><a href="./lo-de.html">Lô Đề</a></p>
+              <p class="text-red-500"><a href="./no-hu.html">Nổ Hũ</a></p>
+              <p class="text-red-500"><a href="./the-thao.html">Thể Thao</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer>
+        <div class="w-full bg-[#0E0026]">
+          <div
+            class="px-4 xl:px-0 max-w-[1220px] mx-auto space-y-6 text-white py-12"
+          >
+            <p>
+              Đến với TA88 là bạn đang đến với thế giới của sự chuyên nghiệp,
+              đẳng cấp mà một nhà cái hàng đầu châu Á mang lại. TA88 đem đến cho
+              khách hàng dịch vụ cá cược trực tuyến hàng đầu với hàng trăm sản
+              phẩm cược hấp dẫn như: Thể Thao, Thể Thao Ảo, Casino, Number Game,
+              Keno, Sòng Bài Số, Lottery,….
+            </p>
+            <img src="./Images/h2.webp" alt="" />
+          </div>
+          <div class="bg-[#0E182F]">
+            <div class="max-w-[1220px] mx-auto py-12 px-4 xl:px-0">
+              <button
+                class="flex items-center space-x-4 px-6 py-2 rounded border bg-[#B30006] text-white font-bold uppercase"
+              >
+                <img class="h-[20px]" src="./Images/h3.png" alt="" />
+                <p class="text-lg">CONTINUE (X/X)</p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center bg-[#000000] text-sm px-4 md:text-base py-4 text-gray-400 font-semibold"
+          >
+            Copyright 2024 © TA88.TEAM - ĐỐI TÁC UY TÍN Nhà Cái TA88 CHÍNH
+            THỨC HIỆN NAY
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>

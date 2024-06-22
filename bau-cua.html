@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>bau-cua</title>
+    <meta
+      data-n-head="ssr"
+      data-hid="keywords"
+      name="keywords"
+      content="Nhà cái TA88"
+    />
+    <meta
+      data-n-head="ssr"
+      data-hid="description"
+      name="description"
+      content="TA88 là trang cá độ Thể Thao, Live Casino, Game Bài uy tín nhất hiện nay, với tỉ lệ kèo đa dạng, giao diện hiện đại hàng đầu thị trường. Hỗ trợ nạp tiền bảo mật, không lộ danh tính, nạp tiền cực nhanh trong vòng 5 phút. Bảo mật thông tin, xử lý nhanh chóng, tham gia ngay!"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header    ===========-->
+      <header class="sticky z-10 top-0 bg-[#0E182F]">
+        <div
+          class="hidden max-w-[1220px] h-[79px] mx-auto px-6 xl:px-0 py-11 text-white lg:flex items-center justify-center space-x-2 xl:space-x-0 xl:justify-between pl-10 xl:pl-4"
+        >
+          <div>
+            <img class="w-[130px] h-[58.50px]" src="./Images/logo.png" alt="" />
+          </div>
+
+          <div class="pl-10 xl:pl-0">
+            <div
+              class="flex pl-5 xl:pl-0 text-xs xl:text-base flex-wrap items-center *:py-1 space-x-4 font-bold uppercase *:flex *:items-center *:justify-center *:space-x-1"
+            >
+              <a href="./index.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/1.png"
+                  alt=""
+                /><span>TRANG CHỦ</span></a
+              >
+              <a href="./the-thao.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/2.png"
+                /><span>Thể Thao</span></a
+              >
+              <a href="./game-bai.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/3.png"
+                  alt=""
+                /><span>Game Bài</span></a
+              >
+              <a href="./ban-ca.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/4.png"
+                  alt=""
+                /><span>Bắn Cá</span></a
+              >
+              <a href="./lo-de.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/5.png"
+                  alt=""
+                /><span>Lô Đề</span></a
+              >
+              <a href="./no-hu.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/6.png"
+                  alt=""
+                /><span>Nổ Hũ</span></a
+              >
+              <a href="./huong-dan.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/7.png"
+                  alt=""
+                /><span>Hướng Dẫn</span></a
+              >
+            </div>
+          </div>
+
+          <div
+            class="w-[25%] xl:w-[auto] flex items-center justify-end space-x-4 font-bold uppercase text-[13px] xl:text-[14px]"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#2B3459]"
+              >
+                Support TA88
+              </button>
+            </a>
+
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#EC6725]"
+              >
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="w-full bg-[#0E182F] lg:hidden">
+          <div
+            class="flex items-center justify-between px-10 md:px-20 pt-4 pb-2"
+          >
+            <div
+              class="text-white text-2xl w-9 h-9 bg-[#035DAB] border-[1px] border-gray-300 flex items-center justify-center rounded-lg"
+            >
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+            <div>
+              <img class="w-36" src="./Images/logo.png" alt="" />
+            </div>
+            <div></div>
+          </div>
+
+          <div
+            class="w-full text-white font-semibold space-x-4 py-2 shadow border-t border-gray-700 uppercase text-xs bg-[#000E56] flex items-center justify-center"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#2B3459]">
+                Support TA88
+              </button>
+            </a>
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#EC6725]">
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+         <!-- side nav -->
+         <div class="menu w-full lg:hidden h-screen fixed top-0 -left-full">
+          <div class="h-full w-full relative transition-all duration-500 bg-gray-950 inset-0 bg-opacity-60 top-0 z-50">
+           <div class=" absolute top-5 right-5 text-gray-300 text-3xl">
+             <ion-icon onclick="hideNav()" name="close-outline"></ion-icon>
+           </div>
+           <div class=" h-full w-[35%] bg-[#010103]">
+             <div
+               class="*:pl-3 px-[2px] text-gray-300 pt-16 text-sm *:pb-2 *:w-full space-y-4 font-bold uppercase flex flex-col items-start *:flex *:items-center *:justify-start *:space-x-1 *:border-b *:border-gray-700"
+             >
+               <a href="./index.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/1.png"
+                   alt=""
+                 /><span>TRANG CHỦ</span></a
+               >
+               <a href="./the-thao.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/2.png"
+                 /><span>Thể Thao</span></a
+               >
+               <a href="./game-bai.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/3.png"
+                   alt=""
+                 /><span>Game Bài</span></a
+               >
+               <a href="./ban-ca.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/4.png"
+                   alt=""
+                 /><span>Bắn Cá</span></a
+               >
+               <a href="./lo-de.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/5.png"
+                   alt=""
+                 /><span>Lô Đề</span></a
+               >
+               <a href="./no-hu.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/6.png"
+                   alt=""
+                 /><span>Nổ Hũ</span></a
+               >
+               <a href="./huong-dan.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/7.png"
+                   alt=""
+                 /><span>Hướng Dẫn</span></a
+               >
+             </div>
+  
+           </div>
+  
+  
+          </div>
+       </div>
+      </header>
+      <!-- container ===========-->
+      <div class="bg-[#06102D] text-white space-y-8 py-9 px-4 xl:px-0">
+        <div class="max-w-[1220px] mx-auto lg:flex space-y-10 lg:space-y-0">
+          <div
+            class="h-full lg:w-[76%] lg:pr-8 lg:border-r border-white space-y-8"
+          >
+            <div class="bg-[#000921] py-6 px-4 space-y-8 text-white relative">
+              <!-- 1 -->
+              <div class="space-y-7">
+                <div class="space-y-1">
+                  <p class="text-red-500 text-[12px]">NỔ HŨ</p>
+                  <h2 class="text-3xl font-bold">
+                    Bầu Cua là gì? Những kinh nghiệm siêu hay khi chơi
+                  </h2>
+                </div>              
+
+                <p class=" text-xs">
+                  POSTED ON &nbsp;<span class="text-red-500">THÁNG MỘT 15, 2024</span>&nbsp; BY &nbsp;<span class="text-red-500">TA88SEOSOO82</span>
+                </p>
+
+                <p>
+                  <span class="text-red-500"> Bầu Cua </span> đã trở thành một
+                  phần không thể thiếu trong văn hóa giải trí của người Việt
+                  Nam. Trò chơi này mang đến cho người chơi những giây phút hồi
+                  hộp và thú vị. Cùng TA88 khám phá game Bầu Cua đặc sắc, độc
+                  đáo ngay sau đây nhé.
+                </p>
+                <!-- img1 -->
+                <div class="space-y-6">
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 77.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Trò chơi Bầu Cua </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">Bầu Cua là gì?</h3>
+                  <p>
+                    Bầu Cua là một trò chơi dân gian phổ biến tại Việt Nam, được
+                    biết đến với tên gọi khác là “Bầu Cua Cá Cọp” hoặc “Bầu Cua
+                    Tôm Cá”. Trò chơi này thường được tổ chức trong các lễ hội
+                    truyền thống, dịp Tết Nguyên Đán.
+                  </p>
+
+                  <p>
+                    Game này sử dụng một bảng có hình dạng của một cái đĩa và
+                    sáu hình ảnh biểu tượng khác nhau. Bao gồm Bầu (tảo), Cua
+                    (cua), Tôm, Cá (mập), Gà và Nai.
+                  </p>
+                </div>
+
+                <!-- img2 -->
+                <div class="space-y-6">
+                  <p>
+                    Người chơi đặt cược bằng cách chọn biểu tượng mà họ tin sẽ
+                    xuất hiện khi người chia bài lật đĩa. Nếu biểu tượng hiện
+                    ra, người chơi sẽ nhận được phần thưởng tương ứng với tỷ lệ
+                    cược. Trò chơi này mang đến không khí vui tươi, sôi động và
+                    là một phần quan trọng của nền văn hóa giải trí dân gian tại
+                    Việt Nam.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 78.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Bầu Cua là gì? </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">Cách chơi của Bầu Cua?</h3>
+                  <p>
+                    Trò chơi này có cách chơi đơn giản nhưng mang lại sự hồi hộp
+                    và giải trí. Dưới đây là cách chơi cơ bản:
+                  </p>
+                </div>
+
+                <!-- img3 -->
+                <div class="space-y-6">
+                  <ul class="pl-6 space-y-3 list-disc">
+                    <li>
+                      <span
+                        >Bước 1: Người chơi đặt cược bằng cách đặt tiền hoặc vật
+                        phẩm giá trị lên các biểu tượng trên bảng. Mỗi biểu
+                        tượng tương ứng với một con số hoặc hình ảnh.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Bước 2: Người chia bài sẽ lật một cái đĩa hình chữ “Xí
+                        Ngầu” có 6 mặt tương ứng với 6 biểu tượng trên
+                        bảng.</span
+                      >
+                    </li>
+                    <li>
+                      <span
+                        >Bước 3: Nếu biểu tượng mà người chơi đã đặt cược xuất
+                        hiện sau khi đĩa ngừng quay, người chơi sẽ nhận được
+                        thưởng tương ứng theo tỷ lệ cược. Ngược lại, nếu không
+                        trúng, người chơi mất số tiền đã cược.</span
+                      >
+                    </li>
+                  </ul>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 79.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Cách chơi của Bầu Cua?</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Những kinh nghiệm siêu hay khi chơi Bầu Cua 
+                  </h3>
+                  <p>
+                    Khi chơi Bầu Cua, có một số kinh nghiệm mà bạn có thể áp dụng để tăng cơ hội chiến thắng:
+                  </p>
+                </div>
+                <div class="space-y-6">
+                  <h4 class="text-xl font-bold">
+                    Phương pháp tìm kiếm tần suất xuất hiện của những con vật  
+                  </h4>
+                  <p>
+                    Đây là một chiến thuật quan trọng được người chơi chuyên nghiệp thường tập trung. Phương pháp này là tìm kiếm tần suất xuất hiện của các mặt xúc xắc. Khi một mặt xuất hiện nhiều lần, khả năng xuất hiện tiếp theo trong các ván chơi sau tăng lên đáng kể. Do đó, nếu bạn nhận thấy mặt cua liên tiếp xuất hiện nhiều lần, việc tiếp tục đặt cua trong các ván tiếp theo có thể là một chiến thuật hiệu quả.
+                  </p>
+                </div>
+                <p>
+                    Ngoài ra, kinh nghiệm này trong trò chơi Bầu Cua cũng được áp dụng để dự đoán xổ số. Điều này giúp cược thủ dễ dàng hơn trong việc xác định các mặt có khả năng xuất hiện cao. Từ đó nâng cao khả năng chiến thắng và đem lại số tiền thưởng lớn.
+                </p>
+
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold">
+                        Cách tính tổng để chiến thắng
+                    </h4>
+                    <p>
+                        Trong chiến thắng tại Bầu Cua, việc dựa vào cách tính tổng kết quả là một chiến thuật phổ biến. Bạn có thể chọn mặt có kết quả cao hơn để đặt cược. Ví dụ như khi mở bát đĩa với 3 mặt cua hoặc 2 mặt các và 1 mặt tôm. 
+                    </p>
+                  </div>
+
+                  <p>
+                    Ở đây, tỷ lệ mặt cua có thể đạt đến khoảng 70%. Phương pháp tính tổng này tương tự với việc tìm kiếm tần suất xuất hiện nhiều lần.
+                  </p>
+
+                  <p>
+                    Ngoài ra, bạn cũng có thể thực hiện cách khác bằng cách quan sát và đoán mặt còn lại khi ba mặt được lật ra nhanh chóng. Khi bạn nắm vững hình ảnh của 3 mặt còn lại, việc phân tích và đặt cược sẽ trở nên dễ dàng hơn.
+                  </p>
+
+            
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                  <p>
+                    Những mẹo nhỏ này, mặc dù đơn giản nhưng lại mang lại hiệu quả lớn. Mẹo này giúp khả năng chiến thắng và thu về số tiền thưởng lớn của bạn sẽ được nâng cao đáng kể.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 80.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Những kinh nghiệm siêu hay khi chơi Bầu Cua</i>
+                    </p>
+                  </div>
+                </div>
+
+                <p>
+                    Bầu Cua TA88 là một phần không thể thiếu trong văn hóa giải trí của người Việt Nam. Trò chơi này đã thu hút người chơi từ mọi độ tuổi. Bầu Cua là một phần không thể thiếu trong các buổi gặp gỡ và giải trí cùng gia đình, bạn bè. Nếu có nhu cầu chơi trực tuyến thì đừng bỏ qua nhà cái TA88 nhé.
+                </p>
+              </div>
+
+              <!-- ============> line -->
+              <div class="h-14 md:h-20"></div>
+              <div
+                class="flex items-center border-y border-white absolute w-full bottom-0 left-0"
+              >
+                <div
+                  class="w-full border-r border-white py-1 md:py-3 text-red-600 pr-2 md:pr-4"
+                >
+                  <span class=""
+                    ><ion-icon
+                      class="text-2xl -mb-1"
+                      name="chevron-back-outline"
+                    ></ion-icon
+                  ></span>
+                  <span class="text-sm md:text-lg">
+                    Hướng dẫn quy trình đăng nhập TA88 đơn giản nhất
+                  </span>
+                </div>
+                <div
+                  class="w-full border-white py-1 md:py-3 text-red-600 pl-2 md:pl-4 text-end"
+                >
+                  <span class="text-sm md:text-lg">
+                    Slot online Đại Tiệc Bánh Gừng siêu hot tại TA88 
+                  </span>
+                  <span class=""
+                    ><ion-icon
+                      class="text-2xl  -mb-1"
+                      name="chevron-forward-outline"
+                    ></ion-icon
+                  ></span>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="containt-right h-full lg:w-[24%] lg:pl-8 space-y-8">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-bold uppercase">BÀI VIẾT MỚI</h1>
+              <p class="text-red-500">
+                Hướng dẫn cách chơi Sicbo online tại sòng bài TA88
+              </p>
+              <p class="text-red-500">
+                Game bắn cá Ocean Lord khám phá bí mật đại dương tại TA88
+              </p>
+              <p class="text-red-500">
+                Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+              </p>
+              <p class="text-red-500">
+                Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch
+                sử
+              </p>
+              <p>Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88</p>
+            </div>
+            <div class="space-y-4">
+              <h1 class="text-3xl font-bold uppercase">GAMES TA88</h1>
+              <p class="text-red-500"><a href="./ban-ca.html">Bắn Cá</a></p>
+              <p class="text-red-500"><a href="./game-bai.html">Game Bài</a></p>
+              <p class="text-red-500">
+                <a href="./huong-dan.html">Hướng Dẫn</a>
+              </p>
+              <p class="text-red-500"><a href="./lo-de.html">Lô Đề</a></p>
+              <p class="text-red-500"><a href="./no-hu.html">Nổ Hũ</a></p>
+              <p class="text-red-500"><a href="./the-thao.html">Thể Thao</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer>
+        <div class="w-full bg-[#0E0026]">
+          <div
+            class="px-4 xl:px-0 max-w-[1220px] mx-auto space-y-6 text-white py-12"
+          >
+            <p>
+              Đến với TA88 là bạn đang đến với thế giới của sự chuyên nghiệp,
+              đẳng cấp mà một nhà cái hàng đầu châu Á mang lại. TA88 đem đến cho
+              khách hàng dịch vụ cá cược trực tuyến hàng đầu với hàng trăm sản
+              phẩm cược hấp dẫn như: Thể Thao, Thể Thao Ảo, Casino, Number Game,
+              Keno, Sòng Bài Số, Lottery,….
+            </p>
+            <img src="./Images/h2.webp" alt="" />
+          </div>
+          <div class="bg-[#0E182F]">
+            <div class="max-w-[1220px] mx-auto py-12 px-4 xl:px-0">
+              <button
+                class="flex items-center space-x-4 px-6 py-2 rounded border bg-[#B30006] text-white font-bold uppercase"
+              >
+                <img class="h-[20px]" src="./Images/h3.png" alt="" />
+                <p class="text-lg">CONTINUE (X/X)</p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center bg-[#000000] text-sm px-4 md:text-base py-4 text-gray-400 font-semibold"
+          >
+            Copyright 2024 © TA88.TEAM - ĐỐI TÁC UY TÍN Nhà Cái TA88 CHÍNH
+            THỨC HIỆN NAY
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>

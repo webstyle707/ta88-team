@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>sam-loc</title>
+    <meta
+      data-n-head="ssr"
+      data-hid="keywords"
+      name="keywords"
+      content="Nhà cái TA88"
+    />
+    <meta
+      data-n-head="ssr"
+      data-hid="description"
+      name="description"
+      content="TA88 là trang cá độ Thể Thao, Live Casino, Game Bài uy tín nhất hiện nay, với tỉ lệ kèo đa dạng, giao diện hiện đại hàng đầu thị trường. Hỗ trợ nạp tiền bảo mật, không lộ danh tính, nạp tiền cực nhanh trong vòng 5 phút. Bảo mật thông tin, xử lý nhanh chóng, tham gia ngay!"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header    ===========-->
+      <header class="sticky z-10 top-0 bg-[#0E182F]">
+        <div
+          class="hidden max-w-[1220px] h-[79px] mx-auto px-6 xl:px-0 py-11 text-white lg:flex items-center justify-center space-x-2 xl:space-x-0 xl:justify-between pl-10 xl:pl-4"
+        >
+          <div>
+            <img class="w-[130px] h-[58.50px]" src="./Images/logo.png" alt="" />
+          </div>
+
+          <div class="pl-10 xl:pl-0">
+            <div
+              class="flex pl-5 xl:pl-0 text-xs xl:text-base flex-wrap items-center *:py-1 space-x-4 font-bold uppercase *:flex *:items-center *:justify-center *:space-x-1"
+            >
+              <a href="./index.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/1.png"
+                  alt=""
+                /><span>TRANG CHỦ</span></a
+              >
+              <a href="./the-thao.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/2.png"
+                /><span>Thể Thao</span></a
+              >
+              <a href="./game-bai.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/3.png"
+                  alt=""
+                /><span>Game Bài</span></a
+              >
+              <a href="./ban-ca.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/4.png"
+                  alt=""
+                /><span>Bắn Cá</span></a
+              >
+              <a href="./lo-de.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/5.png"
+                  alt=""
+                /><span>Lô Đề</span></a
+              >
+              <a href="./no-hu.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/6.png"
+                  alt=""
+                /><span>Nổ Hũ</span></a
+              >
+              <a href="./huong-dan.html"
+                ><img
+                  class="w-[15px] h-[15px]"
+                  src="./Images/img-menu/7.png"
+                  alt=""
+                /><span>Hướng Dẫn</span></a
+              >
+            </div>
+          </div>
+
+          <div
+            class="w-[25%] xl:w-[auto] flex items-center justify-end space-x-4 font-bold uppercase text-[13px] xl:text-[14px]"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#2B3459]"
+              >
+                Support TA88
+              </button>
+            </a>
+
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button
+                class="w-full xl:w-[auto] xl:px-4 py-2 rounded bg-[#EC6725]"
+              >
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+        <!-- sm nav -->
+        <div class="w-full bg-[#0E182F] lg:hidden">
+          <div
+            class="flex items-center justify-between px-10 md:px-20 pt-4 pb-2"
+          >
+            <div
+              class="text-white text-2xl w-9 h-9 bg-[#035DAB] border-[1px] border-gray-300 flex items-center justify-center rounded-lg"
+            >
+              <ion-icon onclick="showNav()" name="menu-sharp"></ion-icon>
+            </div>
+            <div>
+              <img class="w-36" src="./Images/logo.png" alt="" />
+            </div>
+            <div></div>
+          </div>
+
+          <div
+            class="w-full text-white font-semibold space-x-4 py-2 shadow border-t border-gray-700 uppercase text-xs bg-[#000E56] flex items-center justify-center"
+          >
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#2B3459]">
+                Support TA88
+              </button>
+            </a>
+            <a href="https://www.hay88.one/?inviteCode=6303955">
+              <button class="px-2 py-[4px] rounded bg-[#EC6725]">
+                Đăng Nhập
+              </button>
+            </a>
+          </div>
+        </div>
+
+         <!-- side nav -->
+         <div class="menu w-full lg:hidden h-screen fixed top-0 -left-full">
+          <div class="h-full w-full relative transition-all duration-500 bg-gray-950 inset-0 bg-opacity-60 top-0 z-50">
+           <div class=" absolute top-5 right-5 text-gray-300 text-3xl">
+             <ion-icon onclick="hideNav()" name="close-outline"></ion-icon>
+           </div>
+           <div class=" h-full w-[35%] bg-[#010103]">
+             <div
+               class="*:pl-3 px-[2px] text-gray-300 pt-16 text-sm *:pb-2 *:w-full space-y-4 font-bold uppercase flex flex-col items-start *:flex *:items-center *:justify-start *:space-x-1 *:border-b *:border-gray-700"
+             >
+               <a href="./index.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/1.png"
+                   alt=""
+                 /><span>TRANG CHỦ</span></a
+               >
+               <a href="./the-thao.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/2.png"
+                 /><span>Thể Thao</span></a
+               >
+               <a href="./game-bai.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/3.png"
+                   alt=""
+                 /><span>Game Bài</span></a
+               >
+               <a href="./ban-ca.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/4.png"
+                   alt=""
+                 /><span>Bắn Cá</span></a
+               >
+               <a href="./lo-de.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/5.png"
+                   alt=""
+                 /><span>Lô Đề</span></a
+               >
+               <a href="./no-hu.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/6.png"
+                   alt=""
+                 /><span>Nổ Hũ</span></a
+               >
+               <a href="./huong-dan.html"
+                 ><img
+                   class="w-[15px] h-[15px]"
+                   src="./Images/img-menu/7.png"
+                   alt=""
+                 /><span>Hướng Dẫn</span></a
+               >
+             </div>
+  
+           </div>
+  
+  
+          </div>
+       </div>
+      </header>
+      <!-- container ===========-->
+      <div class="bg-[#06102D] text-white space-y-8 py-9 px-4 xl:px-0">
+        <div class="max-w-[1220px] mx-auto lg:flex space-y-10 lg:space-y-0">
+          <div
+            class="h-full lg:w-[76%] lg:pr-8 lg:border-r border-white space-y-8"
+          >
+            <div class="bg-[#000921] py-6 px-4 space-y-8 text-white relative">
+              <!-- 1 -->
+              <div class="space-y-7">
+                <div class="space-y-1">
+                  <p class="text-red-500 text-[12px]">GAME BÀI</p>
+                  <h2 class="text-3xl font-bold">
+                    Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch sử
+                  </h2>
+                </div>
+                <p class=" text-xs">
+                  POSTED ON &nbsp;<span class="text-red-500">THÁNG HAI 2, 2024</span>&nbsp; BY &nbsp;<span class="text-red-500">TA88SEOSOO82</span>
+                </p>
+                <!-- img1 -->
+                <div class="space-y-6">
+                  <p>
+                    Game bài <span class=" text-red-500"> Sâm lốc </span> được biết đến là trò phổ biến ở Việt Nam, đặc biệt là ở miền Bắc. Nó sở hữu cách chơi đơn giản, dễ hiểu nhưng lại vô cùng hấp dẫn và kịch tính. Cùng TA88 tìm hiểu xem trò chơi này mang trong mình điều thú vị gì mà được nhiều người chọn chơi đến thế nhé.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 6.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Game bài Sâm Lốc </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 2 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">Cách chơi game bài để trở nên thuần thục</h3>
+                  <p>
+                    Trò chơi này được chơi với bộ bài tú lơ khơ 52 lá. Mỗi ván chơi có thể tụ họp từ 2 đến 4 người tham gia. 10 lá bài sẽ được phát cho người chơi theo hướng kim đồng hồ.
+                  </p>
+                </div>
+                <p>
+                    Mục tiêu của game bài này là hạ hết hoàn toàn những lá bài ở trên tay người chơi trước các đối thủ khác. Quân bài sở hữu giá trị cao nhất là 2, tiếp theo là A, K, Q, J, 10, 9, 8, 7, 6, 5, 4. Anh em được phép đánh ra bất kỳ lá nào trong tay. Trong trường hợp bạn đánh ra một quân mà không có ai chặn được thì người tiếp theo sẽ phải rút 2 lá từ bộ bài.
+                </p>
+                <p>
+                    Anh em hoàn toàn chặn bài bằng cách đánh ra một quân có cùng giá trị hoặc cùng chất với lượt đi trước đó. Nếu anh em chặn nước đi bằng một quân có giá trị cao hơn, người kế cạnh sẽ phải rút số bài bằng với tỉ lệ chênh lệch giữa hai lá.
+                </p>
+
+                <!-- img2 -->
+                <div class="space-y-6">
+                  <p>
+                    Bạn có thể đánh ra một bộ 3 lá bài cùng chất (sám) hoặc (sảnh). Nếu trường hợp này diễn ra thì bạn kế bên sẽ phải rút số lá bài tính theo số lần xuất hiện của bộ 3.
+                  </p>
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 7.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base"> Cách chơi game để trở nên thuần thục </i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 3 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Chơi bài Sâm Lốc sẽ có nhiều biến thể khác nhau
+                  </h3>
+                  <p>
+                    Trò chơi có nhiều cách thức khác nhau tùy thuộc vào vùng miền và sở thích của người chơi. Những phương pháp chơi phổ biến bao gồm:
+                  </p>
+                </div>
+
+            
+
+                <!-- img3 -->
+                <div class="space-y-6">
+        
+                  <ul class="list-disc py-3 pl-6">
+                    <li ><span>Bài gốc miền Bắc: Đây là biến thể được nhiều người chơi ưa chuộng nhất. Trong cách này, anh em được phép chặn bằng cách đánh ra một lá bài có cùng giá trị hoặc cùng chất với lá bài được đánh trước đó.</span></li>
+                    <li ><span>Sâm lốc miền Trung: Trong thể loại tại vùng miền này, lá bài chặn sẽ được công nhận nếu có cùng chất với người đánh nước trước.</span></li>
+                    <li ><span>Sâm lốc trong Nam: Tại khu vực phía Nam, cách chơi giống với phía Bắc, Trung. Bên cạnh đó, bạn có thể đưa ra ra một tứ quý để tiếp nối lượt đi của người phía trước.</span></li>
+                    </ul>
+
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 8.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Chơi bài Sâm Lốc sẽ có nhiều biến thể khác nhau</i>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 4 -->
+              <div class="space-y-7">
+                <div class="space-y-6">
+                  <h3 class="text-2xl font-bold">
+                    Mẹo chơi game bài Sâm Lốc siêu đỉnh
+                  </h3>
+                  <p>
+                    Để trở thành người chiến thắng trên bàn chơi, hãy áp dụng một số mẹo chơi sau đây để giành chiến thắng:
+                  </p>
+                </div>
+
+
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold">
+                        Nhớ bài của đối thủ
+                    </h4>
+                    <p>
+                        Đây là một trong những yếu tố quan trọng nhất để chơi loại bài này hiệu quả. Cố gắng ghi nhớ những nước đi mà đối thủ đã đánh ra.
+                    </p>
+                  </div>
+
+                  <p>
+                    Sau đó, xâu chuỗi và phân tích kỹ càng để đưa ra những quân bài hợp lý. Chơi sâm không chỉ đơn giản là may rủi để thực hiện mà cần rất nhiều tư duy, chất xám.
+                  </p>
+
+                <div class="space-y-6">
+                    <h4 class="text-xl font-bold">
+                        Cân nhắc kỹ trước khi đánh bài
+                    </h4>
+                    <p>
+                        Bạn không nên đánh bài một cách vội vàng mà cần cân nhắc kỹ càng mỗi khi đi một nước. Hãy suy nghĩ xem cách đi của bạn có thể khiến đối thủ gặp bất lợi hay không. Ngoài ra, anh em hãy xem xét tình hình bàn chơi, bao gồm số lượng bài còn lại của mỗi người chơi để nắm chắc trong tay lợi thế.
+                    </p>
+                  </div>
+               
+
+                <!-- img4 -->
+                <div class="space-y-6">
+                    <div class="space-y-6">
+                        <h4 class="text-xl font-bold">
+                            Làm chủ các chiến thuật chơi bài sâm
+                        </h4>
+                        <p>
+                            Có rất nhiều chiến thuật chơi bài sâm khác nhau. Mỗi phương pháp đều có những ưu điểm và nhược điểm riêng. Anh em nên tìm hiểu cũng như làm chủ đường đi nước bước để ứng dụng linh hoạt trong các tình huống khác nhau. Người ham học hỏi luôn cầm phần chắc chắn cho mình. Vì vậy, hãy bổ sung những yếu tố cần thiết khi chơi bài cho bản thân nhé.
+                        </p>
+                      </div>
+    
+                  <div class="space-y-2">
+                    <img class="w-full" src="./Images/img-component/Artboard 9.jpg" alt="" />
+                    <p class="text-center">
+                      <i class="text-sm md:text-base">Mẹo chơi game cần nắm chắc khiến người chơi làm chủ ván bài</i>
+                    </p>
+                  </div>
+                </div>
+
+                <p>
+                    Sâm lốc TA88 là một trò chơi giải trí thú vị, phù hợp với mọi đối tượng người chơi. Trò chơi giúp người tham gia có cơ hội để rèn luyện trí nhớ và khả năng phán đoán. Chúc anh em luôn thành công, vui vẻ và nắm trong tay được những mẹo chơi sâm thật bùng nổ.
+                </p>
+              </div>
+
+             
+
+           
+
+              <!-- ============> line -->
+              <div class="h-14 md:h-20"></div>
+          
+              <div
+              class="flex items-center border-y border-white absolute w-full bottom-0 left-0"
+            >
+              <div
+                class="w-full border-r border-white py-1 md:py-3 text-red-600 pr-2 md:pr-4"
+              >
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl -mb-1"
+                    name="chevron-back-outline"
+                  ></ion-icon
+                ></span>
+                <span class="text-sm md:text-lg">
+                  Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88
+                </span>
+              </div>
+              <div
+                class="w-full border-white py-1 md:py-3 text-red-600 pl-2 md:pl-4 text-end"
+              >
+                <span class="text-sm md:text-lg">
+                  Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+                </span>
+                <span class=""
+                  ><ion-icon
+                    class="text-2xl -mb-1"
+                    name="chevron-forward-outline"
+                  ></ion-icon
+                ></span>
+              </div>
+            </div>
+            </div>
+          </div>
+          <div class="containt-right h-full lg:w-[24%] lg:pl-8 space-y-8">
+            <div class="space-y-5">
+              <h1 class="text-3xl font-bold uppercase">BÀI VIẾT MỚI</h1>
+              <p class="text-red-500">
+                Hướng dẫn cách chơi Sicbo online tại sòng bài TA88
+              </p>
+              <p class="text-red-500">
+                Game bắn cá Ocean Lord khám phá bí mật đại dương tại TA88
+              </p>
+              <p class="text-red-500">
+                Kèo dụ bóng đá là gì? Những lưu ý để tránh bẫy bị mất tiền
+              </p>
+              <p class="text-red-500">
+                Sâm lốc – Trò chơi bài dân gian mang trong mình chiều dài lịch
+                sử
+              </p>
+              <p>Bắn cá ăn xu – đường đua điểm thưởng hấp dẫn tại TA88</p>
+            </div>
+            <div class="space-y-4">
+              <h1 class="text-3xl font-bold uppercase">GAMES TA88</h1>
+              <p class="text-red-500"><a href="./ban-ca.html">Bắn Cá</a></p>
+              <p class="text-red-500"><a href="./game-bai.html">Game Bài</a></p>
+              <p class="text-red-500">
+                <a href="./huong-dan.html">Hướng Dẫn</a>
+              </p>
+              <p class="text-red-500"><a href="./lo-de.html">Lô Đề</a></p>
+              <p class="text-red-500"><a href="./no-hu.html">Nổ Hũ</a></p>
+              <p class="text-red-500"><a href="./the-thao.html">Thể Thao</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer    ===========-->
+      <footer>
+        <div class="w-full bg-[#0E0026]">
+          <div
+            class="px-4 xl:px-0 max-w-[1220px] mx-auto space-y-6 text-white py-12"
+          >
+            <p>
+              Đến với TA88 là bạn đang đến với thế giới của sự chuyên nghiệp,
+              đẳng cấp mà một nhà cái hàng đầu châu Á mang lại. TA88 đem đến cho
+              khách hàng dịch vụ cá cược trực tuyến hàng đầu với hàng trăm sản
+              phẩm cược hấp dẫn như: Thể Thao, Thể Thao Ảo, Casino, Number Game,
+              Keno, Sòng Bài Số, Lottery,….
+            </p>
+            <img src="./Images/h2.webp" alt="" />
+          </div>
+          <div class="bg-[#0E182F]">
+            <div class="max-w-[1220px] mx-auto py-12 px-4 xl:px-0">
+              <button
+                class="flex items-center space-x-4 px-6 py-2 rounded border bg-[#B30006] text-white font-bold uppercase"
+              >
+                <img class="h-[20px]" src="./Images/h3.png" alt="" />
+                <p class="text-lg">CONTINUE (X/X)</p>
+              </button>
+            </div>
+          </div>
+          <div
+            class="text-center bg-[#000000] text-sm px-4 md:text-base py-4 text-gray-400 font-semibold"
+          >
+            Copyright 2024 © TA88.TEAM - ĐỐI TÁC UY TÍN Nhà Cái TA88 CHÍNH
+            THỨC HIỆN NAY
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!---------------===========-->
+    <script src="./script.js"></script>
+  </body>
+</html>
